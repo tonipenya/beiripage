@@ -7,11 +7,11 @@
     <script src="beiripage.js"></script>
   </head>
   <body>
-    <ul class="timeline" ng-controller="BeiriController as beiriCtrl">
+    <ul class="timeline" ng-controller="BeiriController as beiriCtrl" ng-init="visible=false">
       <li class="bolo" ng-repeat="post in posts">
-        <h3>{{ post.title }}</h3>
+        <h3 ng-click="visible = !visible">{{ post.title }}</h3>
         <h4>{{ post.date }}</h4>
-        <div class="content">
+        <div class="content" ng-show="visible">
           <p>
             {{ post.desc }}
           </p>
