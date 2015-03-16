@@ -1,5 +1,21 @@
-ul.timeline {
+.timeline {
     list-style: none;
+}
+
+.timeline li:before {
+    content: '#';
+}
+
+.timeline h3, .timeline h4 {
+    display: inline-block;
+}
+
+.timeline h3 {
+    cursor: pointer;
+}
+
+.timeline h4 {
+    color: #999;
 }
 
 .thumbnail {
