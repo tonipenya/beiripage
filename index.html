@@ -6,19 +6,23 @@
     <script src="lib/angular-youtube-embed.js"></script>
     <script src="beiripage.js"></script>
   </head>
-  <body>
-    <ul class="timeline" ng-controller="BeiriController as beiriCtrl" ng-init="visible=false">
+  <body ng-controller="BeiriController as beiriCtrl">
+    <a href="#" ng-click="beiriCtrl.expand('none')">Beirao</a>
+    <a href="#" ng-click="beiriCtrl.expand('pictures')">Fotos</a>
+    <a href="#" ng-click="beiriCtrl.expand('videos')">Videos</a>
+
+    <ul class="timeline">
       <li class="bolo" ng-repeat="post in posts">
-        <h3 ng-click="visible = !visible">{{ post.title }}</h3>
+        <h3 ng-click="post.expanded = !post.expanded">{{ post.title }}</h3>
         <h4>{{ post.date }}</h4>
-        <div class="content" ng-show="visible">
+        <div class="content" ng-show="post.expanded">
           <p>
-            {{ post.desc }}
+            {{ post.content.desc }}
           </p>
-          <div class="thumbnail" ng-repeat="picture in post.pictures">
+          <div class="thumbnail" ng-repeat="picture in post.content.pictures">
             <img ng-src="{{ picture }}" alt="" />
           </div>
-          <youtube-video video-url="post.youtube"></youtube-video>
+          <youtube-video video-url="post.content.youtube"></youtube-video>
         </div>
       </li>
     </ul>
