@@ -1,4 +1,4 @@
-var app = angular.module('BeiriPage', ['youtube-embed']);
+var app = angular.module('BeiriPage', ['youtube-embed', 'ngAnimate']);
 
 app.controller('BeiriController', ['$scope', function($scope) {
     $scope.aboutExpanded = false;
