@@ -1,5 +1,12 @@
+.navbar {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
 .timeline {
     list-style: none;
+    padding-top: 20px;
 }
 
 .timeline li:before {
