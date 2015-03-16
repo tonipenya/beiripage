@@ -1,7 +1,8 @@
 var app = angular.module('BeiriPage', ['youtube-embed']);
 
 app.controller('BeiriController', ['$scope', function($scope) {
-    $scope.expand = 'none';
+    $scope.aboutExpanded = false;
+    $scope.contactExpanded = false;
 
     loadPosts();
 
@@ -27,11 +28,22 @@ app.controller('BeiriController', ['$scope', function($scope) {
                 }
                 break;
 
-            case 'none':
+            case 'about':
+                $scope.aboutExpanded = true;
+                break;
+
+            case 'contact':
+                $scope.contactExpanded = true;
+                break;
+
             default:
                 // Do nothing
                 break;
         }
+    }
+
+    this.contact = function(msg) {
+        console.log('contact form filled with: ' + msg);
     }
 
     function loadPosts() {
@@ -40,6 +52,9 @@ app.controller('BeiriController', ['$scope', function($scope) {
     }
 
     function collapseAll() {
+        $scope.aboutExpanded = false;
+        $scope.contactExpanded = false;
+
         for (var i in $scope.posts) {
             $scope.posts[i].expanded = false;
         }

@@ -10,8 +10,22 @@
     <a href="#" ng-click="beiriCtrl.expand('none')">Beirao</a>
     <a href="#" ng-click="beiriCtrl.expand('pictures')">Fotos</a>
     <a href="#" ng-click="beiriCtrl.expand('videos')">Videos</a>
+    <a href="#" ng-click="beiriCtrl.expand('contact')">Contacte</a>
+    <a href="#" ng-click="beiriCtrl.expand('about')">About</a>
 
     <ul class="timeline">
+      <li class="contact">
+        <h3 ng-click="contactExpanded = !contactExpanded">El teu bolo</h3>
+        <h4>Tu decideixes la data</h4>
+        <div class="content" ng-show="contactExpanded">
+          <form ng-click="beiriCtrl.contact(msg)">
+            <textarea ng-model="msg"></textarea>
+            <input type="submit" value="Enviar"></input>
+          </form>
+
+        </div>
+      </li>
+
       <li class="bolo" ng-repeat="post in posts">
         <h3 ng-click="post.expanded = !post.expanded">{{ post.title }}</h3>
         <h4>{{ post.date }}</h4>
@@ -23,6 +37,16 @@
             <img ng-src="{{ picture }}" alt="" />
           </div>
           <youtube-video video-url="post.content.youtube"></youtube-video>
+        </div>
+      </li>
+
+      <li class="about">
+        <h3 ng-click="aboutExpanded = !aboutExpanded">Sobre beirao</h3>
+        <h4>data creacio beirao</h4>
+        <div class="content" ng-show="aboutExpanded">
+          <p>
+            Historia creacio de la banda.
+          </p>
         </div>
       </li>
     </ul>
