@@ -1,5 +1,8 @@
 var app = angular.module('BeiriPage', ['youtube-embed', 'ngAnimate', 'duScroll']);
 
+app.value('duScrollDuration', 500);
+app.value('duScrollOffset', 20);
+
 app.controller('BeiriController', ['$scope', '$document', function($scope, $document) {
     $scope.aboutExpanded = false;
     $scope.contactExpanded = false;
@@ -12,36 +15,28 @@ app.controller('BeiriController', ['$scope', '$document', function($scope, $docu
         switch (view) {
             case 'contact':
                 $scope.contactExpanded = true;
-                var contact = angular.element(document.getElementById('contact'));
-                $document.scrollToElementAnimated(contact, 20, 500);
+                scrollTo('contact');
                 break;
 
             case 'pictures':
-                for (var i in $scope.posts) {
-                    var post = $scope.posts[i];
-                    if (post.content && post.content.pictures && post.content.pictures.length > 0) {
-                        $scope.posts[i].expanded = true;
-                    }
-                }
+                expand(function (post) {
+                    return post.content && post.content.pictures && post.content.pictures.length > 0;
+                });
                 break;
 
             case 'videos':
-                for (var i in $scope.posts) {
-                    var post = $scope.posts[i];
-                    if (post.content && post.content.youtube) {
-                        $scope.posts[i].expanded = true;
-                    }
-                }
+                expand(function (post) {
+                    return post.content && post.content.youtube;
+                });
                 break;
 
             case 'about':
                 $scope.aboutExpanded = true;
-                var about = angular.element(document.getElementById('about'));
-                $document.scrollToElementAnimated(about, 20, 500);
+                scrollTo('about');
                 break;
 
             default:
-                // Do nothing
+                $document.scrollTo(0,0);
                 break;
         }
     }
@@ -64,10 +59,28 @@ app.controller('BeiriController', ['$scope', '$document', function($scope, $docu
         }
     }
 
+    function scrollTo(id) {
+        var element = angular.element(document.getElementById(id));
+        $document.scrollToElementAnimated(element);
+    }
+
+    function expand(condition) {
+        var firstPostId;
+        for (var i in $scope.posts) {
+            var post = $scope.posts[i];
+            if (condition(post)) {
+                firstPostId = firstPostId? firstPostId: post.id;
+                $scope.posts[i].expanded = true;
+            }
+        }
+
+        scrollTo('post' + firstPostId);
+    };
+
 }]);
 
 function getPosts() {
-    return [
+    posts = [
         {
             title: 'bolo fotos',
             date: 'una data',
@@ -162,4 +175,10 @@ function getPosts() {
             }
         }
     ];
+
+    for (var i in posts) {
+        posts[i].id = i;
+    }
+
+    return posts;
 }

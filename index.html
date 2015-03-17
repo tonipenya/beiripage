@@ -30,7 +30,7 @@
         </div>
       </li>
 
-      <li class="bolo" ng-repeat="post in posts">
+      <li class="bolo" id="post{{ post.id }}" ng-repeat="post in posts">
         <h3 ng-click="post.expanded = !post.expanded">{{ post.title }}</h3>
         <h4>{{ post.date }}</h4>
         <div class="content" ng-show="post.expanded && post.content">
