@@ -1,28 +1,157 @@
+body {
+    margin: 0px;
+    color: #2e2d2c;
+    font-family: 'libel_suitregular';
+    background: url(img/cover.jpeg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
 .navbar {
     position: fixed;
-    background-color: #fff;
     width: 100%;
 }
 
-.timeline {
-    list-style: none;
-    padding-top: 20px;
+.cover {
+    height: 400px;
 }
 
-.timeline li:before {
-    content: '#';
+.container {
+    text-align: center;
+    background-color: #ffdf43;
+}
+
+.ribbon {
+  background-color: #482683;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+}
+
+.ribbon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-top: 170px solid #482683;
+  border-right: 55px solid transparent;
+  right: -55px;
+}
+
+.ribbon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-bottom: 170px solid #482683;
+  border-left: 55px solid transparent;
+  left: -55px;
+}
+
+.ribbon .circle {
+  border: 10px solid #ffdf43;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 0 30px;
+  display: inline-block;
+  color: #ffdf43;
+  text-align: center;
+}
+
+.circle .number {
+  display: block;
+  font-size: 68px;
+  margin-top: 10px;
+}
+
+.circle .text {
+  font-size: 43px;
+  margin-top: -17px;
+  display: block;
+}
+
+.circle .text.small {
+  font-size: 22px;
+  line-height: 1em;
+}
+
+#contact {
+    background-image: url("img/baquetes.png") !important;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 1px; /* No idea why, if I remove this, empty spaces appear */
+}
+
+#contact h3 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.year {
+    position: relative;
+    background-color: #ffdf43;
+}
+
+.year .triangle {
+  width: 0;
+  height: 0;
+  border-top: 1650px solid #482683;
+  border-right: 385px solid transparent;
+  left: 0px;
+  position: absolute;
+  right: 0;
+}
+
+.year h2 {
+  position: absolute;
+  left: 20px;
+  color: #fffdf6;
+  margin: 0;
+  font-size: 175px;
+}
+
+.timeline, .bolos {
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.bolos {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.bolos .bolo > * {
+  padding-left: 400px;
+
 }
 
 .timeline h3, .timeline h4 {
     display: inline-block;
 }
 
-.timeline h3 {
-    cursor: pointer;
-}
-
 .timeline h4 {
     color: #999;
+}
+
+.bolo h3 {
+    cursor: pointer;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.bolo h3:hover {
+    background-color: #FDEFAF;
+}
+
+.content {
+    background-color: #fffdf6;
 }
 
 .thumbnail {
@@ -36,7 +165,7 @@
     max-height: 150px;
 }
 
-.content.ng-hide-add.ng-hide-add-active,
+/*.content.ng-hide-add.ng-hide-add-active,
 .content.ng-hide-remove.ng-hide-remove-active {
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
@@ -45,4 +174,4 @@
 .content.ng-hide {
   line-height: 0;
   opacity: 0;
-}
+}*/
