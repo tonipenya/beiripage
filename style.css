@@ -1,26 +1,71 @@
+/*
+    lila    #482683
+    groc    #ffdf43
+    blanc   #fffdf6
+    negre   #2e2d2c
+*/
+
 body {
     margin: 0px;
     color: #2e2d2c;
     font-family: 'libel_suitregular';
-    background: url(img/cover.jpeg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+    background-color: #ffdf43;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
+    height: 130px;
+    background-color: #482683;
+    z-index: 999;
+}
+
+.navbar .logo {
+    display: inline-block;
+}
+
+.navbar .logo:hover {
+    background-color: #7A63A3;
+}
+
+.navbar .logo, .navbar .logo img {
+    height: 100%;
+}
+
+.navbar .links {
+    float: right;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 15px;
+}
+
+.navbar .links .self, .navbar .links .social {
+    padding-bottom: 20px;
+}
+
+.navbar .links .self a {
+    padding: 0;
+    padding-left: 20px;
+    color: #ffdf43;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar .links .social img {
+    height: 20px;
 }
 
 .cover {
-    height: 400px;
+    height: 550px;
+    background: url(img/cover.jpeg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container {
     text-align: center;
-    background-color: #ffdf43;
 }
 
 .ribbon {
@@ -78,21 +123,25 @@ body {
 }
 
 #contact {
+    cursor: pointer;
     background-image: url("img/baquetes.png") !important;
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
-    padding: 1px; /* No idea why, if I remove this, empty spaces appear */
+}
+
+#contact:hover {
+    background-color: #fdefaf;
 }
 
 #contact h3 {
     margin: 0;
-    font-size: 50px;
+    font-size: 60px;
+    padding: 10px;
 }
 
 .year {
     position: relative;
-    background-color: #ffdf43;
 }
 
 .year .triangle {
@@ -121,7 +170,6 @@ body {
 
 .bolos {
   list-style: none;
-  padding-top: 20px;
 }
 
 .bolos .bolo > * {
@@ -147,7 +195,7 @@ body {
 }
 
 .bolo h3:hover {
-    background-color: #FDEFAF;
+    background-color: #fdefaf;
 }
 
 .content {
@@ -163,6 +211,25 @@ body {
 
 .thumbnail img {
     max-height: 150px;
+}
+
+.footer {
+    width: 100%;
+    height: 20px;
+    color: #ffdf43;
+    text-align: center;
+    background-color: #482683;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer .social {
+    float: right;
+    margin-right: 20px;
+}
+
+.footer img {
+    height: 20px;
 }
 
 /*.content.ng-hide-add.ng-hide-add-active,
