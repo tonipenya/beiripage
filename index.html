@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="BeiriPage">
   <head>
-    <title>Beirao percussio</title>
+    <title>Beirão Percussió</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
@@ -33,7 +33,7 @@
       </span>
     </div>
 
-    <div class="cover"></div>
+    <div class="call cover"></div>
 
     <div class="container">
       <div class="ribbon">
@@ -64,11 +64,17 @@
     </div>
 
     <ul class="timeline">
-      <div class="year row" ng-repeat="year in years">
-        <div class="triangle">
+      <div class="year row" ng-repeat="year in years" ng-mouseover="mouseover = true" ng-mouseleave="mouseover = false">
+        <div class="triangle" ng-click="year.expanded = !year.expanded" ng-class="{mouseover: mouseover, collapsed: !year.expanded}">
         </div>
-        <h2>{{ year.year }}</h2>
-        <ul class="bolos">
+        <div class="text">
+          <h2>{{ year.year }}</h2>
+          <h3 ng-show="year.expanded">{{ year.ngigs }} bolos</h3>
+        </div>
+        <div class="cover" ng-hide="year.expanded" ng-class="{mouseover: mouseover}">
+          <img src="{{ year.coverpic }}" />
+        </div>
+        <ul class="bolos" ng-show="year.expanded">
           <li class="bolo" id="gig{{ gig.id }}" ng-repeat="gig in year.gigs">
             <h3 ng-click="beiriCtrl.collapseAll(); gig.expanded = !gig.expanded">{{ gig.title }}</h3>
             <div class="content" ng-show="gig.expanded && gig.content">
@@ -84,17 +90,18 @@
           </li>
         </ul>
       </div>
-
-      <li class="about" id="about">
-        <h3 ng-click="aboutExpanded = !aboutExpanded">Sobre beirao</h3>
+    </ul>
+    <div class="container about" id="about">
+      <h3 ng-click="aboutExpanded = !aboutExpanded">Sobre beirao</h3>
+      <div class="content" ng-show="aboutExpanded">
         <h4>data creacio beirao</h4>
         <div class="content" ng-show="aboutExpanded">
           <p>
             Historia creacio de la banda.
           </p>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
     <div class="footer">
       <span class="social">
         <a href="" ng-click="beiriCtrl.expand('pictures')"><img src="img/facebook.png" alt="facebook"/></a>

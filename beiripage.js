@@ -40,11 +40,19 @@ app.controller('BeiriController', ['$scope', '$document', function($scope, $docu
                 $document.scrollTo(0,0);
                 break;
         }
-    }
+    };
 
     this.contact = function(msg) {
         console.log('contact form filled with: ' + msg);
-    }
+    };
+
+    this.collapseYears = function() {
+        $scope.years[0].expanded = true;
+
+        for (var i = 1; i < $scope.years.length; i++) {
+            $scope.years[i].expanded = false;
+        }
+    };
 
     this.collapseAll = function() {
         $scope.aboutExpanded = false;
@@ -57,12 +65,13 @@ app.controller('BeiriController', ['$scope', '$document', function($scope, $docu
         }
 
         return true;
-    }
+    };
 
     loadYears();
 
     function loadYears() {
         $scope.years = getYears();
+        ctrl.collapseYears();
         ctrl.collapseAll();
     }
 
@@ -95,6 +104,7 @@ function getYears() {
         {
             year: 2015,
             ngigs: 200,
+            coverpic: 'img/year_cover_bw.jpg',
             gigs: [
                 {
                     title: 'bolo fotos',
@@ -186,6 +196,7 @@ function getYears() {
         {
             year: 2014,
             ngigs: 200,
+            coverpic: 'img/year_cover_bw.jpg',
             gigs: [
                 {
                     title: 'bolo amb descripcio',
@@ -230,6 +241,7 @@ function getYears() {
         {
             year: 2013,
             ngigs: 100,
+            coverpic: 'img/year_cover_bw.jpg',
             gigs: [
                 {
                     title: 'bolo sense contingut',
