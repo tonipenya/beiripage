@@ -107,10 +107,10 @@ function getYears() {
             coverpic: 'img/year_cover_bw.jpg',
             gigs: [
                 {
-                    title: 'bolo fotos',
-                    date: 'una data',
+                    title: 'Port Aventura 20è aniversari',
+                    date: 'Port Aventura 20è aniversari - 01 Abril 2015',
                     content: {
-                        desc: 'descripcio del bolo amb fotos',
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
                         pictures: [
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
