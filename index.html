@@ -71,7 +71,7 @@
           <h2>{{ year.year }}</h2>
           <h3 ng-show="year.expanded">{{ year.ngigs }} bolos</h3>
         </div>
-        <div class="cover" ng-hide="year.expanded" ng-class="{mouseover: mouseover}">
+        <div class="cover" ng-hide="year.expanded" ng-click="year.expanded = !year.expanded" ng-class="{mouseover: mouseover}">
           <img src="{{ year.coverpic }}" />
         </div>
         <ul class="bolos" ng-show="year.expanded">
