@@ -57,13 +57,13 @@ body {
     height: 20px;
 }
 
-.call.cover {
+.call {
     height: 550px;
-    background: url(img/cover.jpeg) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    overflow: hidden;
+}
+
+.call .cover {
+    width: 100%
 }
 
 .container {
