@@ -58,16 +58,23 @@ body {
 }
 
 .call {
-    height: 550px;
-    overflow: hidden;
+    /*height: 550px;*/
+    /*overflow: hidden;*/
+    position: fixed;
+    z-index: -100;
 }
 
 .call .cover {
     width: 100%
 }
 
+.re-cover {
+    height: 550px;
+}
+
 .container {
     text-align: center;
+    background-color: #ffdf43;
 }
 
 .ribbon {
@@ -204,6 +211,10 @@ body {
 .year .cover img:hover, .year .cover.mouseover img {
     opacity: 0.5;
     transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+}
+
+.timeline {
+    background-color: #ffdf43;
 }
 
 .timeline, .bolos {

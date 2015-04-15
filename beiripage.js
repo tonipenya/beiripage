@@ -1,5 +1,4 @@
 var app = angular.module('BeiriPage', ['youtube-embed',
-                                        // 'ngAnimate',
                                         'duScroll']);
 
 app.value('duScrollDuration', 500);
