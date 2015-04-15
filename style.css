@@ -100,6 +100,7 @@ body {
 
 .call {
     position: fixed;
+    width: 100%;
     z-index: -100;
 }
 
@@ -221,7 +222,8 @@ body {
 
 .year .text {
     position: absolute;
-    left: 20px;
+    left: 40px;
+    top: 20px;
     margin: 0;
     z-index: 800;
     cursor: pointer;
@@ -234,12 +236,12 @@ body {
 
 .year .text h2 {
     color: #fffdf6;
-    font-size: 175px;
+    font-size: 165px;
 }
 
 .year .text h3 {
     color: #ffdf43;
-    font-size: 75px;
+    font-size: 65px;
 }
 
 .year .cover {
@@ -299,6 +301,15 @@ body {
 .bolo h3:hover {
     background-color: #fdefaf;
     transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+}
+
+.bolo.expanded h3 {
+    background-color: #482683;
+    color: #fffdf6;
+}
+
+.bolo.expanded h3:hover {
+    background-color: #603BA3;
 }
 
 .content {

@@ -23,6 +23,7 @@ app.directive("navscroll", function($window) {
 app.controller('BeiriController', ['$scope', '$document', '$http', function($scope, $document, $http) {
     $scope.aboutExpanded = false;
     $scope.contactExpanded = false;
+    $scope.likes = '---';
     var ctrl = this;
 
     this.expand = function(view) {
@@ -69,17 +70,17 @@ app.controller('BeiriController', ['$scope', '$document', '$http', function($sco
         }
     };
 
-    this.collapseAll = function() {
+    this.collapseAll = function(exceptionId) {
         $scope.aboutExpanded = false;
         $scope.contactExpanded = false;
 
         for (var i in $scope.years) {
             for (var j in $scope.years[i].gigs) {
-                $scope.years[i].gigs[j].expanded = false;
+                if ($scope.years[i].gigs[j].id != exceptionId) {
+                    $scope.years[i].gigs[j].expanded = false;
+                }
             }
         }
-
-        return true;
     };
 
     loadYears();

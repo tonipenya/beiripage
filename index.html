@@ -26,7 +26,7 @@
           <a href="" ng-click="beiriCtrl.expand('pictures')">Fotos</a>
           <a href="" ng-click="beiriCtrl.expand('videos')">Videos</a>
           <a href="" ng-click="beiriCtrl.expand('contact')">Contacte</a>
-          <a href="" ng-click="beiriCtrl.expand('about')">About</a>
+          <a href="" ng-click="beiriCtrl.expand('about')">Que es Beirão</a>
         </div>
       </span>
     </div>
@@ -79,9 +79,9 @@
           <img src="{{ year.coverpic }}" />
         </div>
         <ul class="bolos" ng-show="year.expanded">
-          <li class="bolo" id="gig{{ gig.id }}" ng-repeat="gig in year.gigs">
-            <h3 ng-click="beiriCtrl.collapseAll(); gig.expanded = !gig.expanded">{{ gig.title }}</h3>
-            <div class="content" ng-show="gig.expanded && gig.content">
+          <li class="bolo" id="gig{{ gig.id }}" ng-repeat="gig in year.gigs" ng-class="{expanded: gig.expanded}">
+            <h3 ng-click="beiriCtrl.collapseAll(gig.id); gig.expanded = !gig.expanded">{{ gig.title }}</h3>
+            <div class="content" ng-show="gig.expanded">
               <h4>{{ gig.date }}</h4>
               <p>
                 {{ gig.content.desc }}
@@ -96,7 +96,7 @@
       </div>
     </ul>
     <div class="container about" id="about">
-      <h3 ng-click="aboutExpanded = !aboutExpanded">Sobre beirao</h3>
+      <h3 ng-click="aboutExpanded = !aboutExpanded">Que es Beirão</h3>
       <div class="content" ng-show="aboutExpanded">
         <h4>data creacio beirao</h4>
         <div class="content" ng-show="aboutExpanded">
