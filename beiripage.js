@@ -86,6 +86,15 @@ app.controller('BeiriController', ['$scope', '$document', function($scope, $docu
 
     function loadYears() {
         $scope.years = getYears();
+
+        var totalGigs = 0;
+
+        for(var i in $scope.years) {
+            totalGigs += $scope.years[i].ngigs;
+        }
+
+        $scope.totalGigs = totalGigs;
+
         ctrl.collapseYears();
         ctrl.collapseAll();
     }
