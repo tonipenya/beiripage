@@ -12,21 +12,33 @@ body {
     color: #2e2d2c;
     font-family: 'libel_suitregular';
     background-color: #ffdf43;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
     height: 130px;
-    background-color: #482683;
     z-index: 999;
 }
 
+.navbar.min {
+    background-color: #482683;
+    /*box-shadow: 1px 1px 6px #343434, 0px 0px 20px rgba(50, 50, 50, 0.6);*/
+    box-shadow: 0px 7px 0px rgba(0,0,0,0.07);
+    height: 50px;
+}
+
 .navbar .logo {
+    padding: 0 10px;
     display: inline-block;
 }
 
-.navbar .logo:hover {
+.navbar.min .logo:hover {
     background-color: #603BA3;
 }
 
@@ -41,25 +53,52 @@ body {
     padding-top: 15px;
 }
 
-.navbar .links .self, .navbar .links .social {
+.navbar.min .links {
+    height: 100%;
+    padding-top: 0px;
+}
+
+.navbar .links .social {
     padding-bottom: 20px;
+}
+
+.navbar .links .self {
+    margin-right: -10px;
+}
+
+.navbar.min .links .self {
+    height: 100%;
+    overflow: hidden;
 }
 
 .navbar .links .self a {
     padding: 0;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #ffdf43;
     text-decoration: none;
     font-size: 25px;
+}
+
+.navbar.min .links .self a {
+    display: inline-block;
+    padding-top: 10px;
+    height: 100%
+}
+
+.navbar.min .links .self a:hover {
+    background-color: #603BA3;
 }
 
 .navbar .links .social img {
     height: 20px;
 }
 
+.navbar.min .links .social {
+    display: none;
+}
+
 .call {
-    /*height: 550px;*/
-    /*overflow: hidden;*/
     position: fixed;
     z-index: -100;
 }
@@ -121,13 +160,14 @@ body {
 }
 
 .circle .text {
-  font-size: 43px;
+  font-size: 40px;
   margin-top: -17px;
   display: block;
 }
 
 .circle .text.small {
-  font-size: 22px;
+  font-size: 20px;
+  padding-top: 2px;
   line-height: 1em;
 }
 
@@ -156,7 +196,7 @@ body {
     overflow: hidden;
 }
 
-.year .triangle {
+.year .triangle, .year .triangle-shadow {
     width: 0;
     height: 0;
     border-top: 1650px solid #482683;
@@ -166,6 +206,12 @@ body {
     right: 0;
     cursor: pointer;
     z-index: 700;
+}
+
+.year .triangle-shadow {
+    border-top: 1650px solid rgba(0, 0, 0, 0.07);
+    border-right: 393px solid transparent;
+    z-index: 690;
 }
 
 .year .triangle:hover, .collapsed.triangle.mouseover {
@@ -287,14 +333,3 @@ body {
 .footer img {
     height: 20px;
 }
-
-/*.content.ng-hide-add.ng-hide-add-active,
-.content.ng-hide-remove.ng-hide-remove-active {
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
-}
-
-.content.ng-hide {
-  line-height: 0;
-  opacity: 0;
-}*/

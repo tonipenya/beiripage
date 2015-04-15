@@ -4,6 +4,22 @@ var app = angular.module('BeiriPage', ['youtube-embed',
 app.value('duScrollDuration', 500);
 app.value('duScrollOffset', 20);
 
+app.directive("navscroll", function($window) {
+    return function(scope, element, attrs) {
+        angular.element($window).bind("scroll", function() {
+            var YOFFSET_SHRINK = 10;
+
+            if (this.pageYOffset > YOFFSET_SHRINK) {
+                scope.shrinkNav = true;
+            } else {
+                scope.shrinkNav = false;
+            }
+
+            scope.$apply();
+        });
+    };
+});
+
 app.controller('BeiriController', ['$scope', '$document', function($scope, $document) {
     $scope.aboutExpanded = false;
     $scope.contactExpanded = false;

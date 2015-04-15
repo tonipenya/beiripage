@@ -11,9 +11,9 @@
     <script src="beiripage.js"></script>
   </head>
   <body ng-controller="BeiriController as beiriCtrl">
-    <div class="navbar">
+    <div class="navbar" data-navscroll ng-class="{min: shrinkNav}">
       <div class="logo">
-        <a href=""><img src="img/logo.png"/></a>
+        <a ng-click="beiriCtrl.expand('none')"><img src="img/logo.png"/></a>
       </div>
       <span class="links">
         <div class="social">
@@ -23,7 +23,6 @@
           <a href="" ng-click="beiriCtrl.expand('about')"><img src="img/twitter.png" alt="twitter" /></a>
         </div>
         <div class="self">
-          <a href="" ng-click="beiriCtrl.expand('none')">Beirao</a>
           <a href="" ng-click="beiriCtrl.expand('pictures')">Fotos</a>
           <a href="" ng-click="beiriCtrl.expand('videos')">Videos</a>
           <a href="" ng-click="beiriCtrl.expand('contact')">Contacte</a>
@@ -69,6 +68,8 @@
     <ul class="timeline">
       <div class="year row" ng-repeat="year in years" ng-mouseover="mouseover = true" ng-mouseleave="mouseover = false">
         <div class="triangle" ng-click="year.expanded = !year.expanded" ng-class="{mouseover: mouseover, collapsed: !year.expanded}">
+        </div>
+        <div class="triangle-shadow" ng-click="year.expanded = !year.expanded" ng-class="{mouseover: mouseover, collapsed: !year.expanded}">
         </div>
         <div class="text">
           <h2>{{ year.year }}</h2>
