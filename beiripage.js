@@ -108,7 +108,11 @@ function getYears() {
             gigs: [
                 {
                     title: 'Port Aventura 20è aniversari',
-                    date: 'Port Aventura 20è aniversari - 01 Abril 2015',
+                    date: '01 de Maig de 2015'
+                },
+                {
+                    title: '2n Aniversari Beirão Percussió',
+                    date: '25 d\'Abril de 2015',
                     content: {
                         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
                         pictures: [
@@ -119,29 +123,22 @@ function getYears() {
                     }
                 },
                 {
-                    title: 'bolo amb descripcio',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb descripcio'
-                    }
+                    title: 'Sant Medir',
+                    date: '03 de Març de 2015'
                 },
                 {
-                    title: 'bolo sense contingut',
-                    date: 'una data'
-                },
-                {
-                    title: 'bolo amb youtube',
-                    date: 'una data',
+                    title: 'Any nou Xinès',
+                    date: '21 de Febrer de 2015',
                     content: {
-                        desc: 'descripcio del bolo amb youtube',
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
                         youtube: 'cUmOx3m_WJU'
                     }
                 },
                 {
-                    title: 'bolo fotos',
-                    date: 'una data',
+                    title: 'Carnestoltes a Nou Barris',
+                    date: '14 de Febrer de 2015',
                     content: {
-                        desc: 'descripcio del bolo amb fotos',
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
                         pictures: [
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
@@ -149,41 +146,14 @@ function getYears() {
                         ]
                     }
                 },{
-                    title: 'bolo fotos',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb fotos',
-                        pictures: [
-                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
-                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
-                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
-                        ]
-                    }
+                    title: 'Correfoc de Santa Eulàlia',
+                    date: '07 de Febrer de 2015'
                 },
                 {
-                    title: 'bolo amb descripcio',
-                    date: 'una data',
+                    title: 'Festival de la Infància',
+                    date: '03 de Gener de 2015',
                     content: {
-                        desc: 'descripcio del bolo amb descripcio'
-                    }
-                },
-                {
-                    title: 'bolo sense contingut',
-                    date: 'una data'
-                },
-                {
-                    title: 'bolo amb youtube',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb youtube',
-                        youtube: 'cUmOx3m_WJU'
-                    }
-                },
-                {
-                    title: 'bolo fotos',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb fotos',
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
                         pictures: [
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
@@ -199,29 +169,10 @@ function getYears() {
             coverpic: 'img/year_cover_bw.jpg',
             gigs: [
                 {
-                    title: 'bolo amb descripcio',
-                    date: 'una data',
+                    title: 'La Marató de TV3',
+                    date: '14 de Desembre de 2014',
                     content: {
-                        desc: 'descripcio del bolo amb descripcio'
-                    }
-                },
-                {
-                    title: 'bolo sense contingut',
-                    date: 'una data'
-                },
-                {
-                    title: 'bolo amb youtube',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb youtube',
-                        youtube: 'cUmOx3m_WJU'
-                    }
-                },
-                {
-                    title: 'bolo fotos',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb fotos',
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
                         pictures: [
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
                             'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
@@ -230,11 +181,129 @@ function getYears() {
                     }
                 },
                 {
-                    title: 'bolo amb descripcio',
-                    date: 'una data',
+                    title: 'Classe de Zumba al Claror',
+                    date: '27 de Setembre i 19 d\'Octubre de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        youtube: 'cUmOx3m_WJU'
+                    }
+                },
+                {
+                    title: 'Mercè 2014',
+                    date: '20 i 21 de Setembre de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        youtube: 'cUmOx3m_WJU'
+                    }
+                },
+                {
+                    title: 'Port Aventura - Oktoberfest',
+                    date: '12, 13 i 19 de Setembre de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        pictures: [
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
+                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
+                        ]
+                    }
+                },
+                {
+                    title: 'Port Aventura - Festa Pirata',
+                    date: '16 d\'Agost de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        pictures: [
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
+                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
+                        ]
+                    }
+                },
+                {
+                    title: 'Port Aventura - Nit Blanca',
+                    date: '26 de Juliol de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        pictures: [
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
+                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
+                        ]
+                    }
+                },
+                {
+                    title: 'Residència Alella',
+                    date: '05 de Juliol de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        pictures: [
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
+                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
+                        ]
+                    }
+                },
+                {
+                    title: 'Barcelona Gay Pride',
+                    date: '28 de Juny de 2014',
                     content: {
                         desc: 'descripcio del bolo amb descripcio'
                     }
+                },
+                {
+                    title: 'Revetlla de Sant Joan a Sagrada Família',
+                    date: '23 de Juny de 2014',
+                    content: {
+                        desc: 'descripcio del bolo amb descripcio'
+                    }
+                },
+                {
+                    title: 'Festival Kutuprá',
+                    date: '21 de Juny de 2014',
+                    content: {
+                        desc: 'descripcio del bolo amb descripcio'
+                    }
+                },
+                {
+                    title: 'Concerts al barri de La Prosperitat',
+                    date: '30 i 31 de Maig de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        pictures: [
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
+                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
+                        ]
+                    }
+                },
+                {
+                    title: 'AS de Repiques 2014',
+                    date: '17 de Maig de 2014',
+                    content: {
+                        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ',
+                        pictures: [
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C',
+                            'https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3',
+                            'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70'
+                        ]
+                    }
+                },
+                {
+                    title: '1r Aniversari Beirão Percussió',
+                    date: '03 de Maig de 2014'
+                },
+                {
+                    title: 'Festa Major de la Sagrada Família',
+                    date: '26 d\'Abrol de 2014'
+                },
+                {
+                    title: 'Carnestoltes',
+                    date: '27 i 28 de Febrer i 1 de Març de 2014'
+                },
+                {
+                    title: 'Any nou Xinès',
+                    date: '01 de Febrer de 2014'
                 }
             ]
         },
@@ -244,16 +313,24 @@ function getYears() {
             coverpic: 'img/year_cover_bw.jpg',
             gigs: [
                 {
-                    title: 'bolo sense contingut',
-                    date: 'una data'
+                    title: '20 anys de la Farfolla de la Sagrada Família',
+                    date: '14 de Desembre de 2013'
                 },
                 {
-                    title: 'bolo amb youtube',
-                    date: 'una data',
-                    content: {
-                        desc: 'descripcio del bolo amb youtube',
-                        youtube: 'cUmOx3m_WJU'
-                    }
+                    title: 'Bodes',
+                    date: '03 d\'Agost de 2013'
+                },
+                {
+                    title: 'Torneig Solidari de Futbol',
+                    date: '29 de Juny de 2013'
+                },
+                {
+                    title: 'Vilanova Somriu',
+                    date: '15 de Juny de 2013'
+                },
+                {
+                    title: 'Fundació Disgrup',
+                    date: '26 de Maig de 2013'
                 }
             ]
         }
