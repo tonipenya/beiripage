@@ -42,6 +42,19 @@ body {
     background-color: #603BA3;
 }
 
+.navbar .imago {
+    display: none;
+}
+.navbar.min .imago {
+    display: block;
+}
+.navbar .logotipo {
+    display: block;
+}
+.navbar.min .logotipo {
+    display: none;
+}
+
 .navbar .logo, .navbar .logo img {
     height: 100%;
 }
