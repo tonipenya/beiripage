@@ -280,12 +280,8 @@ body {
 
 }
 
-.timeline h3, .timeline h4 {
+.timeline h3 {
     display: inline-block;
-}
-
-.timeline h4 {
-    color: #999;
 }
 
 .bolo h3 {
@@ -313,17 +309,45 @@ body {
 
 .content {
     background-color: #fffdf6;
+    padding-top: 10px;
 }
 
-.thumbnail {
-    width: 150px;
-    height: 150px;
+.content p {
+    max-width: 635px;
+}
+
+.timeline h4 {
+    color: #999;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.content h4, .content p, .content .thumbnails {
+    padding-bottom: 20px;
+}
+
+.content .thumbnails {
+    width: 670px;
+}
+
+.content .thumbnail {
+    cursor: pointer;
+    width: 190px;
+    height: 160px;
     overflow: hidden;
     display: inline-block;
+    margin-right: 32px;
 }
 
 .thumbnail img {
-    max-height: 150px;
+    max-height: 160px;
 }
 
 ul[rn-carousel] {
