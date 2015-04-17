@@ -26,16 +26,16 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/any_nou_xines_2015_1.jpg",
-                            "/img/gigs/thumbnails/any_nou_xines_2015_2.jpg",
-                            "/img/gigs/thumbnails/any_nou_xines_2015_3.jpg",
-                            "/img/gigs/thumbnails/any_nou_xines_2015_4.jpg"
+                            "img/gigs/thumbnails/any_nou_xines_2015_1.jpg",
+                            "img/gigs/thumbnails/any_nou_xines_2015_2.jpg",
+                            "img/gigs/thumbnails/any_nou_xines_2015_3.jpg",
+                            "img/gigs/thumbnails/any_nou_xines_2015_4.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/any_nou_xines_2015_1.jpg",
-                            "/img/gigs/fullsize/any_nou_xines_2015_2.jpg",
-                            "/img/gigs/fullsize/any_nou_xines_2015_3.jpg",
-                            "/img/gigs/fullsize/any_nou_xines_2015_4.jpg"
+                            "img/gigs/fullsize/any_nou_xines_2015_1.jpg",
+                            "img/gigs/fullsize/any_nou_xines_2015_2.jpg",
+                            "img/gigs/fullsize/any_nou_xines_2015_3.jpg",
+                            "img/gigs/fullsize/any_nou_xines_2015_4.jpg"
                         ]
                     }
                 }
@@ -47,18 +47,18 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_1.jpg",
-                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_2.jpg",
-                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_3.jpg",
-                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_4.jpg",
-                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_5.jpg"
+                            "img/gigs/thumbnails/carnestoltes_nou_barris_2015_1.jpg",
+                            "img/gigs/thumbnails/carnestoltes_nou_barris_2015_2.jpg",
+                            "img/gigs/thumbnails/carnestoltes_nou_barris_2015_3.jpg",
+                            "img/gigs/thumbnails/carnestoltes_nou_barris_2015_4.jpg",
+                            "img/gigs/thumbnails/carnestoltes_nou_barris_2015_5.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_1.jpg",
-                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_2.jpg",
-                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_3.jpg",
-                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_4.jpg",
-                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_5.jpg"
+                            "img/gigs/fullsize/carnestoltes_nou_barris_2015_1.jpg",
+                            "img/gigs/fullsize/carnestoltes_nou_barris_2015_2.jpg",
+                            "img/gigs/fullsize/carnestoltes_nou_barris_2015_3.jpg",
+                            "img/gigs/fullsize/carnestoltes_nou_barris_2015_4.jpg",
+                            "img/gigs/fullsize/carnestoltes_nou_barris_2015_5.jpg"
                         ]
                     }
                 }
@@ -68,10 +68,10 @@
                 "content": {
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/santa_eulalia_2015_1.jpg"
+                            "img/gigs/thumbnails/santa_eulalia_2015_1.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/santa_eulalia_2015_1.jpg"
+                            "img/gigs/fullsize/santa_eulalia_2015_1.jpg"
                         ]
                     }
                 }
@@ -111,16 +111,16 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/zumba_2014_1.jpg",
-                            "/img/gigs/thumbnails/zumba_2014_2.jpg",
-                            "/img/gigs/thumbnails/zumba_2014_3.jpg",
-                            "/img/gigs/thumbnails/zumba_2014_4.jpg"
+                            "img/gigs/thumbnails/zumba_2014_1.jpg",
+                            "img/gigs/thumbnails/zumba_2014_2.jpg",
+                            "img/gigs/thumbnails/zumba_2014_3.jpg",
+                            "img/gigs/thumbnails/zumba_2014_4.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/zumba_2014_1.jpg",
-                            "/img/gigs/fullsize/zumba_2014_2.jpg",
-                            "/img/gigs/fullsize/zumba_2014_3.jpg",
-                            "/img/gigs/fullsize/zumba_2014_4.jpg"
+                            "img/gigs/fullsize/zumba_2014_1.jpg",
+                            "img/gigs/fullsize/zumba_2014_2.jpg",
+                            "img/gigs/fullsize/zumba_2014_3.jpg",
+                            "img/gigs/fullsize/zumba_2014_4.jpg"
                         ]
                     }
                 }
@@ -132,12 +132,12 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/merce_2014_1.jpg",
-                            "/img/gigs/thumbnails/merce_2014_2.jpg"
+                            "img/gigs/thumbnails/merce_2014_1.jpg",
+                            "img/gigs/thumbnails/merce_2014_2.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/merce_2014_1.jpg",
-                            "/img/gigs/fullsize/merce_2014_2.jpg"
+                            "img/gigs/fullsize/merce_2014_1.jpg",
+                            "img/gigs/fullsize/merce_2014_2.jpg"
                         ]
                     }
                 }
@@ -149,18 +149,18 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_1.jpg",
-                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_2.jpg",
-                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_3.jpg",
-                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_4.jpg",
-                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_5.jpg"
+                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_1.jpg",
+                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_2.jpg",
+                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_3.jpg",
+                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_4.jpg",
+                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_5.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_1.jpg",
-                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_2.jpg",
-                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_3.jpg",
-                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_4.jpg",
-                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_5.jpg"
+                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_1.jpg",
+                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_2.jpg",
+                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_3.jpg",
+                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_4.jpg",
+                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_5.jpg"
                         ]
                     }
                 }
@@ -172,18 +172,18 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                           "/img/gigs/thumbnails/port_aventura_pirata_2014_1.jpg",
-                           "/img/gigs/thumbnails/port_aventura_pirata_2014_2.jpg",
-                           "/img/gigs/thumbnails/port_aventura_pirata_2014_3.jpg",
-                           "/img/gigs/thumbnails/port_aventura_pirata_2014_4.jpg",
-                           "/img/gigs/thumbnails/port_aventura_pirata_2014_5.jpg"
+                           "img/gigs/thumbnails/port_aventura_pirata_2014_1.jpg",
+                           "img/gigs/thumbnails/port_aventura_pirata_2014_2.jpg",
+                           "img/gigs/thumbnails/port_aventura_pirata_2014_3.jpg",
+                           "img/gigs/thumbnails/port_aventura_pirata_2014_4.jpg",
+                           "img/gigs/thumbnails/port_aventura_pirata_2014_5.jpg"
                         ],
                         "fullsize": [
-                           "/img/gigs/fullsize/port_aventura_pirata_2014_1.jpg",
-                           "/img/gigs/fullsize/port_aventura_pirata_2014_2.jpg",
-                           "/img/gigs/fullsize/port_aventura_pirata_2014_3.jpg",
-                           "/img/gigs/fullsize/port_aventura_pirata_2014_4.jpg",
-                           "/img/gigs/fullsize/port_aventura_pirata_2014_5.jpg"
+                           "img/gigs/fullsize/port_aventura_pirata_2014_1.jpg",
+                           "img/gigs/fullsize/port_aventura_pirata_2014_2.jpg",
+                           "img/gigs/fullsize/port_aventura_pirata_2014_3.jpg",
+                           "img/gigs/fullsize/port_aventura_pirata_2014_4.jpg",
+                           "img/gigs/fullsize/port_aventura_pirata_2014_5.jpg"
                        ]
                     }
                 }
@@ -195,18 +195,18 @@
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                           "/img/gigs/thumbnails/port_aventura_blanca_2014_1.jpg",
-                           "/img/gigs/thumbnails/port_aventura_blanca_2014_2.jpg",
-                           "/img/gigs/thumbnails/port_aventura_blanca_2014_3.jpg",
-                           "/img/gigs/thumbnails/port_aventura_blanca_2014_4.jpg",
-                           "/img/gigs/thumbnails/port_aventura_blanca_2014_5.jpg"
+                           "img/gigs/thumbnails/port_aventura_blanca_2014_1.jpg",
+                           "img/gigs/thumbnails/port_aventura_blanca_2014_2.jpg",
+                           "img/gigs/thumbnails/port_aventura_blanca_2014_3.jpg",
+                           "img/gigs/thumbnails/port_aventura_blanca_2014_4.jpg",
+                           "img/gigs/thumbnails/port_aventura_blanca_2014_5.jpg"
                         ],
                         "fullsize": [
-                           "/img/gigs/fullsize/port_aventura_blanca_2014_1.jpg",
-                           "/img/gigs/fullsize/port_aventura_blanca_2014_2.jpg",
-                           "/img/gigs/fullsize/port_aventura_blanca_2014_3.jpg",
-                           "/img/gigs/fullsize/port_aventura_blanca_2014_4.jpg",
-                           "/img/gigs/fullsize/port_aventura_blanca_2014_5.jpg"
+                           "img/gigs/fullsize/port_aventura_blanca_2014_1.jpg",
+                           "img/gigs/fullsize/port_aventura_blanca_2014_2.jpg",
+                           "img/gigs/fullsize/port_aventura_blanca_2014_3.jpg",
+                           "img/gigs/fullsize/port_aventura_blanca_2014_4.jpg",
+                           "img/gigs/fullsize/port_aventura_blanca_2014_5.jpg"
                        ]
                     }
                 }
@@ -239,16 +239,16 @@
                     "desc": "descripcio del bolo amb descripcio",
                     "pictures": {
                         "thumbnails": [
-                           "/img/gigs/thumbnails/kutupra_2014_1.jpg",
-                           "/img/gigs/thumbnails/kutupra_2014_2.jpg",
-                           "/img/gigs/thumbnails/kutupra_2014_3.jpg",
-                           "/img/gigs/thumbnails/kutupra_2014_5.jpg"
+                           "img/gigs/thumbnails/kutupra_2014_1.jpg",
+                           "img/gigs/thumbnails/kutupra_2014_2.jpg",
+                           "img/gigs/thumbnails/kutupra_2014_3.jpg",
+                           "img/gigs/thumbnails/kutupra_2014_5.jpg"
                         ],
                         "fullsize": [
-                           "/img/gigs/fullsize/kutupra_2014_1.jpg",
-                           "/img/gigs/fullsize/kutupra_2014_2.jpg",
-                           "/img/gigs/fullsize/kutupra_2014_3.jpg",
-                           "/img/gigs/fullsize/kutupra_2014_5.jpg"
+                           "img/gigs/fullsize/kutupra_2014_1.jpg",
+                           "img/gigs/fullsize/kutupra_2014_2.jpg",
+                           "img/gigs/fullsize/kutupra_2014_3.jpg",
+                           "img/gigs/fullsize/kutupra_2014_5.jpg"
                        ]
                     }
                 }
@@ -294,20 +294,20 @@
                     "desc": "Hem participat en molts actes, com la Tabalada i Correfoc de la Festa Major de Sant Antoni, la inauguració del local social de Castellers de la Sagrada Família, l'Aniversari d'Arreplegats de la Zona Universitària, la festa de l'AMPA a l'escola Ramon Llull, correfocs a Sant Cugat Ses Garrigues, Fort Pienc, un casament a Centelles, etc. ",
                     "pictures": {
                         "thumbnails": [
-                            "/img/gigs/thumbnails/altres_2014_1.jpg",
-                            "/img/gigs/thumbnails/altres_2014_2.jpg",
-                            "/img/gigs/thumbnails/altres_2014_3.jpg",
-                            "/img/gigs/thumbnails/altres_2014_4.jpg",
-                            "/img/gigs/thumbnails/altres_2014_5.jpg",
-                            "/img/gigs/thumbnails/altres_2014_6.jpg"
+                            "img/gigs/thumbnails/altres_2014_1.jpg",
+                            "img/gigs/thumbnails/altres_2014_2.jpg",
+                            "img/gigs/thumbnails/altres_2014_3.jpg",
+                            "img/gigs/thumbnails/altres_2014_4.jpg",
+                            "img/gigs/thumbnails/altres_2014_5.jpg",
+                            "img/gigs/thumbnails/altres_2014_6.jpg"
                         ],
                         "fullsize": [
-                            "/img/gigs/fullsize/altres_2014_1.jpg",
-                            "/img/gigs/fullsize/altres_2014_2.jpg",
-                            "/img/gigs/fullsize/altres_2014_3.jpg",
-                            "/img/gigs/fullsize/altres_2014_4.jpg",
-                            "/img/gigs/fullsize/altres_2014_5.jpg",
-                            "/img/gigs/fullsize/altres_2014_6.jpg"
+                            "img/gigs/fullsize/altres_2014_1.jpg",
+                            "img/gigs/fullsize/altres_2014_2.jpg",
+                            "img/gigs/fullsize/altres_2014_3.jpg",
+                            "img/gigs/fullsize/altres_2014_4.jpg",
+                            "img/gigs/fullsize/altres_2014_5.jpg",
+                            "img/gigs/fullsize/altres_2014_6.jpg"
                         ]
                     }
                 }
