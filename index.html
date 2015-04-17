@@ -3,11 +3,14 @@
   <head>
     <title>Beirão Percussió</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
     <link rel="stylesheet" href="font/libelsuit.css" type="text/css" charset="utf-8" />
+    <link href="css/angular-carousel.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.5/angular-scroll.min.js"></script>
     <script src="lib/angular-youtube-embed.js"></script>
+    <script src="lib/angular-touch.min.js"></script>
+    <script src="lib/angular-carousel.min.js"></script>
     <script src="beiripage.js"></script>
   </head>
   <body ng-controller="BeiriController as beiriCtrl">
@@ -81,13 +84,13 @@
         <ul class="bolos" ng-show="year.expanded">
           <li class="bolo" id="gig{{ gig.id }}" ng-repeat="gig in year.gigs" ng-class="{expanded: gig.expanded}">
             <h3 ng-click="beiriCtrl.collapseAll(gig.id); gig.expanded = !gig.expanded">{{ gig.title }}</h3>
-            <div class="content" ng-show="gig.expanded">
+            <div class="content" ng-if="gig.expanded">
               <h4>{{ gig.date }}</h4>
               <p>
                 {{ gig.content.desc }}
               </p>
-              <div class="thumbnail" ng-repeat="picture in gig.content.pictures">
-                <img ng-src="{{ picture }}" alt="" />
+              <div class="thumbnail" ng-click="beiriCtrl.showCarousel(gig, $index)" ng-repeat="picture in gig.content.pictures.thumbnails">
+                <img ng-src="{{ picture }}" alt=""/>
               </div>
               <youtube-video video-url="gig.content.youtube"></youtube-video>
             </div>
@@ -115,5 +118,27 @@
       </span>
       Beirão Percussió | 2015 | Difusió Team
     </div>
+
+    <ul class="image"
+        ng-show="beiriCtrl.carouselVisible"
+        ng-click="beiriCtrl.carouselVisible = false"
+        rn-carousel-index="beiriCtrl.carouselIndex"
+        rn-carousel rn-carousel-buffered>
+      <span class="controls prev"
+            ng-click="beiriCtrl.prevPicture(); $event.stopPropagation()"
+            ng-show="beiriCtrl.carouselHasPrev()">
+        <
+      </span>
+      <li ng-repeat="picture in beiriCtrl.carouselPictures">
+        <div class="picture" ng-style="{'background-image': 'url(' + picture + ')'}" ng-click="beiriCtrl.log('clicked'); $event.stopPropagation()">
+          <img src="{{ picture }}" alt=""/>
+        </div>
+      </li>
+      <span class="controls next"
+            ng-click="beiriCtrl.nextPicture(); $event.stopPropagation()"
+            ng-show="beiriCtrl.carouselHasNext()">
+        >
+      </span>
+    </ul>
   </body>
 </html>

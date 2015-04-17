@@ -1,5 +1,6 @@
 var app = angular.module('BeiriPage', ['youtube-embed',
-                                        'duScroll']);
+                                        'duScroll',
+                                        'angular-carousel']);
 
 app.value('duScrollDuration', 500);
 app.value('duScrollOffset', 20);
@@ -25,6 +26,9 @@ app.controller('BeiriController', ['$scope', '$document', '$http', function($sco
     $scope.contactExpanded = false;
     $scope.likes = '---';
     var ctrl = this;
+    this.carouselVisible = false;
+    this.carouselPictures = false;
+    this.carouselIndex = 0;
 
     this.expand = function(view) {
         this.collapseAll();
@@ -80,6 +84,32 @@ app.controller('BeiriController', ['$scope', '$document', '$http', function($sco
                     $scope.years[i].gigs[j].expanded = false;
                 }
             }
+        }
+    };
+
+    this.showCarousel = function (gig, index) {
+        this.carouselPictures = gig.content.pictures.fullsize;
+        this.carouselVisible = true;
+        this.carouselIndex = index? index: 0;
+    };
+
+    this.carouselHasNext = function () {
+        return this.carouselIndex < (this.carouselPictures.length-1);
+    };
+
+    this.carouselHasPrev = function () {
+        return this.carouselIndex > 0;
+    }
+
+    this.prevPicture = function () {
+        if (this.carouselIndex > 0) {
+            this.carouselIndex--;
+        }
+    };
+
+    this.nextPicture = function () {
+        if (this.carouselIndex < this.carouselPictures.length) {
+            this.carouselIndex++;
         }
     };
 
