@@ -1,288 +1,327 @@
 [
     {
         "year": 2015,
-        "ngigs": 200,
-        "coverpic": "img/year_cover_bw.jpg",
+        "ngigs": 10,
+        "coverpic": "img/2015.jpg",
         "gigs": [
             {
-                "title": "Port Aventura 20è aniversari",
-                "date": "01 de Maig de 2015"
+                "title": "Port Aventura - 20è aniversari",
+                "date": "Vila-Seca / 01 de Maig de 2015"
             },
             {
                 "title": "2n Aniversari Beirão Percussió",
-                "date": "25 d'Abril de 2015",
+                "date": "Barcelona / Sagrada Família / 25 d'Abril de 2015",
+                "content": {
+                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
+                }
+            },
+            {
+                "title": "Sant Medir",
+                "date": "Barcelona / Gràcia / 03 de Març de 2015"
+            },
+            {
+                "title": "Any nou Xinès",
+                "date": "Barcelona / 21 de Febrer de 2015",
                 "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/thumbnails/any_nou_xines_2015_1.jpg",
+                            "/img/gigs/thumbnails/any_nou_xines_2015_2.jpg",
+                            "/img/gigs/thumbnails/any_nou_xines_2015_3.jpg",
+                            "/img/gigs/thumbnails/any_nou_xines_2015_4.jpg"
                         ],
                         "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/fullsize/any_nou_xines_2015_1.jpg",
+                            "/img/gigs/fullsize/any_nou_xines_2015_2.jpg",
+                            "/img/gigs/fullsize/any_nou_xines_2015_3.jpg",
+                            "/img/gigs/fullsize/any_nou_xines_2015_4.jpg"
                         ]
                     }
                 }
             },
             {
-                "title": "Sant Medir",
-                "date": "03 de Març de 2015"
-            },
-            {
-                "title": "Any nou Xinès",
-                "date": "21 de Febrer de 2015",
-                "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "youtube": "cUmOx3m_WJU"
-                }
-            },
-            {
                 "title": "Carnestoltes a Nou Barris",
-                "date": "14 de Febrer de 2015",
+                "date": "Barcelona / Nou Barris / 14 de Febrer de 2015",
                 "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_1.jpg",
+                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_2.jpg",
+                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_3.jpg",
+                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_4.jpg",
+                            "/img/gigs/thumbnails/carnestoltes_nou_barris_2015_5.jpg"
                         ],
                         "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_1.jpg",
+                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_2.jpg",
+                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_3.jpg",
+                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_4.jpg",
+                            "/img/gigs/fullsize/carnestoltes_nou_barris_2015_5.jpg"
                         ]
                     }
                 }
             },{
                 "title": "Correfoc de Santa Eulàlia",
-                "date": "07 de Febrer de 2015"
+                "date": "Barcelona / Casc Antic / 07 de Febrer de 2015",
+                "content": {
+                    "pictures": {
+                        "thumbnails": [
+                            "/img/gigs/thumbnails/santa_eulalia_2015_1.jpg"
+                        ],
+                        "fullsize": [
+                            "/img/gigs/fullsize/santa_eulalia_2015_1.jpg"
+                        ]
+                    }
+                }
             },
             {
                 "title": "Festival de la Infància",
-                "date": "03 de Gener de 2015",
+                "date": "Barcelona / Montjuïc / 03 de Gener de 2015",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "pictures": {
-                        "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ],
-                        "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ]
-                    }
+                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
+                }
+            },
+            {
+                "title": "I molts altres ...",
+                "date": "",
+                "content": {
+                    "desc": "Hem participat en molts actes, com la celebració del centenari de l'escola Pompeu Fabra, a Badalona, etc. "
                 }
             }
         ]
     },
     {
         "year": 2014,
-        "ngigs": 200,
-        "coverpic": "img/year_cover_bw.jpg",
+        "ngigs": 34,
+        "coverpic": "img/2014.jpg",
         "gigs": [
             {
                 "title": "La Marató de TV3",
                 "date": "14 de Desembre de 2014",
                 "content": {
+                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie."
+                }
+            },
+            {
+                "title": "Classe de Zumba al Claror",
+                "date": "Barcelona / Sagrada Família / 27 de Setembre i 19 d'Octubre de 2014",
+                "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/thumbnails/zumba_2014_1.jpg",
+                            "/img/gigs/thumbnails/zumba_2014_2.jpg",
+                            "/img/gigs/thumbnails/zumba_2014_3.jpg",
+                            "/img/gigs/thumbnails/zumba_2014_4.jpg"
                         ],
                         "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/fullsize/zumba_2014_1.jpg",
+                            "/img/gigs/fullsize/zumba_2014_2.jpg",
+                            "/img/gigs/fullsize/zumba_2014_3.jpg",
+                            "/img/gigs/fullsize/zumba_2014_4.jpg"
                         ]
                     }
                 }
             },
             {
-                "title": "Classe de Zumba al Claror",
-                "date": "27 de Setembre i 19 d'Octubre de 2014",
-                "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "youtube": "cUmOx3m_WJU"
-                }
-            },
-            {
                 "title": "Mercè 2014",
-                "date": "20 i 21 de Setembre de 2014",
-                "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "youtube": "cUmOx3m_WJU"
-                }
-            },
-            {
-                "title": "Port Aventura - Oktoberfest",
-                "date": "12, 13 i 19 de Setembre de 2014",
+                "date": "Barcelona / Barri Gòtic / 20 i 21 de Setembre de 2014",
                 "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/thumbnails/merce_2014_1.jpg",
+                            "/img/gigs/thumbnails/merce_2014_2.jpg"
                         ],
                         "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                            "/img/gigs/fullsize/merce_2014_1.jpg",
+                            "/img/gigs/fullsize/merce_2014_2.jpg"
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Port Aventura - Oktoberfest",
+                "date": "Vila-Seca / 12, 13 i 19 de Setembre de 2014",
+                "content": {
+                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "pictures": {
+                        "thumbnails": [
+                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_1.jpg",
+                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_2.jpg",
+                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_3.jpg",
+                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_4.jpg",
+                            "/img/gigs/thumbnails/port_aventura_oktoberfest_2014_5.jpg"
+                        ],
+                        "fullsize": [
+                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_1.jpg",
+                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_2.jpg",
+                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_3.jpg",
+                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_4.jpg",
+                            "/img/gigs/fullsize/port_aventura_oktoberfest_2014_5.jpg"
                         ]
                     }
                 }
             },
             {
                 "title": "Port Aventura - Festa Pirata",
-                "date": "16 d'Agost de 2014",
+                "date": "Vila-Seca / 16 d'Agost de 2014",
                 "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                           "/img/gigs/thumbnails/port_aventura_pirata_2014_1.jpg",
+                           "/img/gigs/thumbnails/port_aventura_pirata_2014_2.jpg",
+                           "/img/gigs/thumbnails/port_aventura_pirata_2014_3.jpg",
+                           "/img/gigs/thumbnails/port_aventura_pirata_2014_4.jpg",
+                           "/img/gigs/thumbnails/port_aventura_pirata_2014_5.jpg"
                         ],
                         "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ]
+                           "/img/gigs/fullsize/port_aventura_pirata_2014_1.jpg",
+                           "/img/gigs/fullsize/port_aventura_pirata_2014_2.jpg",
+                           "/img/gigs/fullsize/port_aventura_pirata_2014_3.jpg",
+                           "/img/gigs/fullsize/port_aventura_pirata_2014_4.jpg",
+                           "/img/gigs/fullsize/port_aventura_pirata_2014_5.jpg"
+                       ]
                     }
                 }
             },
             {
                 "title": "Port Aventura - Nit Blanca",
-                "date": "26 de Juliol de 2014",
+                "date": "Vila-Seca / 26 de Juliol de 2014",
                 "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
                     "pictures": {
                         "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
+                           "/img/gigs/thumbnails/port_aventura_blanca_2014_1.jpg",
+                           "/img/gigs/thumbnails/port_aventura_blanca_2014_2.jpg",
+                           "/img/gigs/thumbnails/port_aventura_blanca_2014_3.jpg",
+                           "/img/gigs/thumbnails/port_aventura_blanca_2014_4.jpg",
+                           "/img/gigs/thumbnails/port_aventura_blanca_2014_5.jpg"
                         ],
                         "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ]
+                           "/img/gigs/fullsize/port_aventura_blanca_2014_1.jpg",
+                           "/img/gigs/fullsize/port_aventura_blanca_2014_2.jpg",
+                           "/img/gigs/fullsize/port_aventura_blanca_2014_3.jpg",
+                           "/img/gigs/fullsize/port_aventura_blanca_2014_4.jpg",
+                           "/img/gigs/fullsize/port_aventura_blanca_2014_5.jpg"
+                       ]
                     }
                 }
             },
             {
-                "title": "Residència Alella",
-                "date": "05 de Juliol de 2014",
+                "title": "XV Jornada de Portes Obertes de la​ Fundació Germans Aymar i Puig",
+                "date": "Alella / 05 de Juliol de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "pictures": {
-                        "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ],
-                        "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ]
-                    }
+                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
                 }
             },
             {
                 "title": "Barcelona Gay Pride",
-                "date": "28 de Juny de 2014",
+                "date": "Barceloa / Casc Antic / 28 de Juny de 2014",
                 "content": {
-                    "desc": "descripcio del bolo amb descripcio"
+                    "desc": "Manifestació per l’alliberament LGTB. "
                 }
             },
             {
                 "title": "Revetlla de Sant Joan a Sagrada Família",
-                "date": "23 de Juny de 2014",
+                "date": "Barcelona / Sagrada Família / 23 de Juny de 2014",
                 "content": {
                     "desc": "descripcio del bolo amb descripcio"
                 }
             },
             {
                 "title": "Festival Kutuprá",
-                "date": "21 de Juny de 2014",
+                "date": "Barcelona / Vila Olímpica / 21 de Juny de 2014",
                 "content": {
-                    "desc": "descripcio del bolo amb descripcio"
+                    "desc": "descripcio del bolo amb descripcio",
+                    "pictures": {
+                        "thumbnails": [
+                           "/img/gigs/thumbnails/kutupra_2014_1.jpg",
+                           "/img/gigs/thumbnails/kutupra_2014_2.jpg",
+                           "/img/gigs/thumbnails/kutupra_2014_3.jpg",
+                           "/img/gigs/thumbnails/kutupra_2014_5.jpg"
+                        ],
+                        "fullsize": [
+                           "/img/gigs/fullsize/kutupra_2014_1.jpg",
+                           "/img/gigs/fullsize/kutupra_2014_2.jpg",
+                           "/img/gigs/fullsize/kutupra_2014_3.jpg",
+                           "/img/gigs/fullsize/kutupra_2014_5.jpg"
+                       ]
+                    }
                 }
             },
             {
                 "title": "Concerts al barri de La Prosperitat",
-                "date": "30 i 31 de Maig de 2014",
+                "date": "Barcelona / Nou Barris / 30 i 31 de Maig de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "pictures": {
-                        "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ],
-                        "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ]
-                    }
+                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
                 }
             },
             {
                 "title": "AS de Repiques 2014",
-                "date": "17 de Maig de 2014",
+                "date": "Vilassar / 17 de Maig de 2014",
                 "content": {
                     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
-                    "pictures": {
-                        "thumbnails": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ],
-                        "fullsize": [
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10308344_908973512470629_452133408834186550_n.jpg?oh=838bc895a1d7b44a2b41ed5ca9ab8a0c&oe=557E2D4C",
-                            "https://scontent-mad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11034308_908973482470632_7041379705912555940_n.jpg?oh=f8f983b1a4d4bad9953a537474733f36&oe=55B67BA3",
-                            "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11021153_908973435803970_4972357321582845133_n.jpg?oh=57b7725fb62aed5d1e92b2d636dc409a&oe=5577C64A&__gda__=1438387744_e5d825251b97fe90c8e80342d1d49d70"
-                        ]
-                    }
+                    "youtube": "cUmOx3m_WJU"
                 }
             },
             {
                 "title": "1r Aniversari Beirão Percussió",
-                "date": "03 de Maig de 2014"
+                "date": "Barcelona / Sagrada Família / 03 de Maig de 2014"
             },
             {
                 "title": "Festa Major de la Sagrada Família",
-                "date": "26 d'Abrol de 2014"
+                "date": "Barcelona / Sagrada Família / 26 d'Abrol de 2014"
             },
             {
                 "title": "Carnestoltes",
-                "date": "27 i 28 de Febrer i 1 de Març de 2014"
+                "date": "Rubí / Barcelona / Sants / 27 i 28 de Febrer i 1 de Març de 2014",
+                "content": {
+                    "desc": "Arribada del rei Carnestoltes a Sants, rues a les escoles Ernest Lluch i Sagrada Família, rua infantil a Sants i rua de carnaval a Rubí"
+                }
             },
             {
                 "title": "Any nou Xinès",
-                "date": "01 de Febrer de 2014"
+                "date": "Barcelona / 01 de Febrer de 2014"
+            },
+            {
+                "title": "I molts altres ...",
+                "date": "",
+                "content": {
+                    "desc": "Hem participat en molts actes, com la Tabalada i Correfoc de la Festa Major de Sant Antoni, la inauguració del local social de Castellers de la Sagrada Família, l'Aniversari d'Arreplegats de la Zona Universitària, la festa de l'AMPA a l'escola Ramon Llull, correfocs a Sant Cugat Ses Garrigues, Fort Pienc, un casament a Centelles, etc. ",
+                    "pictures": {
+                        "thumbnails": [
+                            "/img/gigs/thumbnails/altres_2014_1.jpg",
+                            "/img/gigs/thumbnails/altres_2014_2.jpg",
+                            "/img/gigs/thumbnails/altres_2014_3.jpg",
+                            "/img/gigs/thumbnails/altres_2014_4.jpg",
+                            "/img/gigs/thumbnails/altres_2014_5.jpg",
+                            "/img/gigs/thumbnails/altres_2014_6.jpg"
+                        ],
+                        "fullsize": [
+                            "/img/gigs/fullsize/altres_2014_1.jpg",
+                            "/img/gigs/fullsize/altres_2014_2.jpg",
+                            "/img/gigs/fullsize/altres_2014_3.jpg",
+                            "/img/gigs/fullsize/altres_2014_4.jpg",
+                            "/img/gigs/fullsize/altres_2014_5.jpg",
+                            "/img/gigs/fullsize/altres_2014_6.jpg"
+                        ]
+                    }
+                }
             }
         ]
     },
     {
         "year": 2013,
-        "ngigs": 100,
-        "coverpic": "img/year_cover_bw.jpg",
+        "ngigs": 8,
+        "coverpic": "img/2013.jpg",
         "gigs": [
             {
                 "title": "20 anys de la Farfolla de la Sagrada Família",
-                "date": "14 de Desembre de 2013"
+                "date": "Barcelona / Sagrada Família / 14 de Desembre de 2013"
             },
             {
                 "title": "Bodes",
