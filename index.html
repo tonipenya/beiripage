@@ -89,8 +89,10 @@
               <p>
                 {{ gig.content.desc }}
               </p>
-              <div class="thumbnail" ng-click="beiriCtrl.showCarousel(gig, $index)" ng-repeat="picture in gig.content.pictures.thumbnails">
-                <img ng-src="{{ picture }}" alt=""/>
+              <div class="thumbnails">
+                <div class="thumbnail" ng-click="beiriCtrl.showCarousel(gig, $index)" ng-repeat="picture in gig.content.pictures.thumbnails | limitTo: 3">
+                  <img ng-src="{{ picture }}" alt=""/>
+                </div>
               </div>
               <youtube-video video-url="gig.content.youtube"></youtube-video>
             </div>
