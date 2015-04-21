@@ -1,6 +1,6 @@
+- carousel amb totes les fotos quan es fa click a 'Fotos'.
 - estilar youtube.
 - els thumbnails queden tallats quan la pantalla es petita.
 - no fer scroll a la pagina quan hi ha la galeria.
-- el navbar fa coses rares amb les imatges quan canvia de mida.
 - formulari de contacte que faci algo.
 - comptadors amb la animacio de comptar de 0 al numero que toqui.
