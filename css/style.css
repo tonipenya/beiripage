@@ -11,7 +11,7 @@ body {
     margin: 0px;
     color: #2e2d2c;
     font-family: 'libel_suitregular';
-    background-color: #ffdf43;
+    background-color: #482683;
     letter-spacing: 2px;
 }
 
@@ -37,11 +37,27 @@ body {
     display: inline-block;
 }
 
+.navbar .logo a {
+    height: 100%;
+    width: 150px;
+    display: inline-block;
+    background: url('../img/logosml.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar.min .logo a {
+    width: 50px;
+    background: url('../img/imago.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .navbar.min .logo:hover {
     background-color: #603BA3;
 }
 
-.navbar .logo, .navbar .logo img {
+.navbar .logo {
     height: 100%;
 }
 
@@ -101,6 +117,18 @@ body {
     position: fixed;
     width: 100%;
     z-index: -100;
+}
+
+.call .moto {
+  color: #fffdf6;
+  text-shadow: 2px 2px 20px #000;
+  font-size: 6.5vw;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
 }
 
 .call .cover {
@@ -221,6 +249,7 @@ body {
 
 .year .text {
     position: absolute;
+    text-align: center;
     left: 40px;
     top: 20px;
     margin: 0;
@@ -276,7 +305,7 @@ body {
 }
 
 .bolos .bolo > * {
-  padding-left: 400px;
+  padding-left: 430px;
 
 }
 

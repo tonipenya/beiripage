@@ -8,7 +8,7 @@ app.value('duScrollOffset', 20);
 app.directive("navscroll", function($window) {
     return function(scope, element, attrs) {
         angular.element($window).bind("scroll", function() {
-            var YOFFSET_SHRINK = 10;
+            var YOFFSET_SHRINK = 420;
 
             if (this.pageYOffset > YOFFSET_SHRINK) {
                 scope.shrinkNav = true;
@@ -41,7 +41,9 @@ app.controller('BeiriController', ['$scope', '$document', '$http', function($sco
 
             case 'pictures':
                 expand(function (gig) {
-                    return gig.content && gig.content.pictures && gig.content.pictures.length > 0;
+                    return gig.content && gig.content.pictures
+                            && gig.content.pictures.thumbnails
+                            && gig.content.pictures.thumbnails.length > 0;
                 });
                 break;
 

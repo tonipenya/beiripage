@@ -16,7 +16,8 @@
   <body ng-controller="BeiriController as beiriCtrl">
     <div class="navbar" data-navscroll ng-class="{min: shrinkNav}">
       <div class="logo">
-        <a ng-click="beiriCtrl.expand('none')"><img src="img/logo.png"/></a>
+        <a href="#" ng-click="beiriCtrl.expand('none')"></a>
+        <!-- <a ng-click="beiriCtrl.expand('none')"><img src="img/logo.png"/></a> -->
       </div>
       <span class="links">
         <div class="social">
@@ -29,12 +30,13 @@
           <a href="" ng-click="beiriCtrl.expand('pictures')">Fotos</a>
           <a href="" ng-click="beiriCtrl.expand('videos')">Videos</a>
           <a href="" ng-click="beiriCtrl.expand('contact')">Contacte</a>
-          <a href="" ng-click="beiriCtrl.expand('about')">Que es Beirão</a>
+          <a href="" ng-click="beiriCtrl.expand('about')">Què és Beirão</a>
         </div>
       </span>
     </div>
 
     <div class="call">
+      <span class="moto">Som ritme, som energia, som percussió.</span>
       <img class="cover" src="img/cover.jpeg"/>
     </div>
     <div class="re-cover">
@@ -101,7 +103,7 @@
       </div>
     </ul>
     <div class="container about" id="about">
-      <h3 ng-click="aboutExpanded = !aboutExpanded">Que es Beirão</h3>
+      <h3 ng-click="aboutExpanded = !aboutExpanded">Què és Beirão</h3>
       <div class="content" ng-show="aboutExpanded">
         <h4>data creacio beirao</h4>
         <div class="content" ng-show="aboutExpanded">
