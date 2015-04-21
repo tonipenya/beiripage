@@ -2,6 +2,7 @@
 <html ng-app="BeiriPage">
   <head>
     <title>Beirão Percussió</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <link rel="stylesheet" href="font/libelsuit.css" type="text/css" charset="utf-8" />
     <link href="css/angular-carousel.min.css" rel="stylesheet" type="text/css" />
@@ -11,13 +12,13 @@
     <script src="lib/angular-youtube-embed.js"></script>
     <script src="lib/angular-touch.min.js"></script>
     <script src="lib/angular-carousel.min.js"></script>
+    <script src="lib/hotkeys.min.js"></script>
     <script src="beiripage.js"></script>
   </head>
   <body ng-controller="BeiriController as beiriCtrl">
     <div class="navbar" data-navscroll ng-class="{min: shrinkNav}">
       <div class="logo">
         <a href="#" ng-click="beiriCtrl.expand('none')"></a>
-        <!-- <a ng-click="beiriCtrl.expand('none')"><img src="img/logo.png"/></a> -->
       </div>
       <span class="links">
         <div class="social">
@@ -37,7 +38,6 @@
 
     <div class="call">
       <span class="moto">Som ritme, som energia, som percussió.</span>
-      <img class="cover" src="img/cover.jpeg"/>
     </div>
     <div class="re-cover">
     </div>

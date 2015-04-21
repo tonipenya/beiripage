@@ -1,6 +1,7 @@
 var app = angular.module('BeiriPage', ['youtube-embed',
                                         'duScroll',
-                                        'angular-carousel']);
+                                        'angular-carousel',
+                                        'cfp.hotkeys']);
 
 app.value('duScrollDuration', 500);
 app.value('duScrollOffset', 20);
@@ -21,14 +22,39 @@ app.directive("navscroll", function($window) {
     };
 });
 
-app.controller('BeiriController', ['$scope', '$document', '$http', function($scope, $document, $http) {
+app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
+                                    function($scope, $document, $http, hotkeys) {
     $scope.aboutExpanded = false;
     $scope.contactExpanded = false;
     $scope.likes = '---';
     var ctrl = this;
-    this.carouselVisible = false;
-    this.carouselPictures = false;
-    this.carouselIndex = 0;
+    ctrl.carouselVisible = false;
+    ctrl.carouselPictures = false;
+    ctrl.carouselIndex = 0;
+
+    hotkeys.add({
+        combo: 'right',
+        description: 'This one goes to 11',
+        callback: function() {
+            ctrl.carouselIndex++;
+        }
+    });
+
+    hotkeys.add({
+        combo: 'left',
+        description: 'This one goes to 11',
+        callback: function() {
+            ctrl.carouselIndex--;
+        }
+    });
+
+    hotkeys.add({
+        combo: 'esc',
+        description: 'This one goes to 11',
+        callback: function() {
+            ctrl.carouselVisible = false;
+        }
+    });
 
     this.expand = function(view) {
         this.collapseAll();
