@@ -1,4 +1,5 @@
-- carousel amb totes les fotos quan es fa click a 'Fotos'.
+- Ojo amb la ultima foto (es vertical i queda tallada).
+- Peu de fotos.
 - estilar youtube.
 - els thumbnails queden tallats quan la pantalla es petita.
 - no fer scroll a la pagina quan hi ha la galeria.

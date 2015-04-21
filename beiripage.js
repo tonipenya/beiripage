@@ -102,7 +102,22 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
     };
 
     this.showCarousel = function (gig, index) {
-        this.carouselPictures = gig.content.pictures.fullsize;
+        if (gig) {
+            this.carouselPictures = gig.content.pictures.fullsize;
+        } else {
+            this.carouselPictures = [];
+            for (var i in $scope.years) {
+                for (var j in $scope.years[i].gigs) {
+                    var gig = $scope.years[i].gigs[j];
+
+                    if (gig.content && gig.content.pictures
+                        && gig.content.pictures.fullsize) {
+                        this.carouselPictures = this.carouselPictures.concat(gig.content.pictures.fullsize);
+                    }
+                }
+            }
+        }
+        
         this.carouselVisible = true;
         this.carouselIndex = index? index: 0;
     };

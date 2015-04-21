@@ -28,7 +28,7 @@
           <a href="https://twitter.com/beiraopercussio" target="_blank"><img src="img/twitter.png" alt="twitter" /></a>
         </div>
         <div class="self">
-          <a href="" ng-click="">Fotos</a>
+          <a href="" ng-click="beiriCtrl.showCarousel()">Fotos</a>
           <a href="" ng-click="">Videos</a>
           <a href="" ng-click="beiriCtrl.expand('contact')">Contacte</a>
           <a href="" ng-click="beiriCtrl.expand('about')">Què és Beirão</a>
@@ -139,6 +139,9 @@
         <div class="picture" ng-style="{'background-image': 'url(' + picture + ')'}" ng-click="beiriCtrl.log('clicked'); $event.stopPropagation()">
           <img ng-src="{{ picture }}" alt=""/>
         </div>
+        <!-- <div class="title">
+          Nom del bolo
+        </div> -->
       </li>
       <span class="controls next"
             ng-click="beiriCtrl.nextPicture(); $event.stopPropagation()"
