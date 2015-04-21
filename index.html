@@ -22,14 +22,14 @@
       </div>
       <span class="links">
         <div class="social">
-          <a href="" ng-click="beiriCtrl.expand('pictures')"><img src="img/facebook.png" alt="facebook"/></a>
-          <a href="" ng-click="beiriCtrl.expand('videos')"><img src="img/instagram.png" alt="instagram" /></a>
-          <a href="" ng-click="beiriCtrl.expand('contact')"><img src="img/youtube.png" alt="youtube" /></a>
-          <a href="" ng-click="beiriCtrl.expand('about')"><img src="img/twitter.png" alt="twitter" /></a>
+          <a href=""><img src="img/facebook.png" alt="facebook"/></a>
+          <a href=""><img src="img/instagram.png" alt="instagram" /></a>
+          <a href=""><img src="img/youtube.png" alt="youtube" /></a>
+          <a href=""><img src="img/twitter.png" alt="twitter" /></a>
         </div>
         <div class="self">
-          <a href="" ng-click="beiriCtrl.expand('pictures')">Fotos</a>
-          <a href="" ng-click="beiriCtrl.expand('videos')">Videos</a>
+          <a href="" ng-click="">Fotos</a>
+          <a href="" ng-click="">Videos</a>
           <a href="" ng-click="beiriCtrl.expand('contact')">Contacte</a>
           <a href="" ng-click="beiriCtrl.expand('about')">Què és Beirão</a>
         </div>
@@ -72,19 +72,21 @@
 
     <ul class="timeline">
       <div class="year row" ng-repeat="year in years" ng-mouseover="mouseover = true" ng-mouseleave="mouseover = false">
-        <div class="triangle" ng-click="year.expanded = !year.expanded" ng-class="{mouseover: mouseover, collapsed: !year.expanded}">
+        <div class="triangle" ng-click="beiriCtrl.collapseYears(year.year); year.expanded = !year.expanded" ng-class="{mouseover: mouseover, collapsed: !year.expanded}">
         </div>
         <div class="triangle-shadow">
         </div>
-        <div class="text" ng-click="year.expanded = !year.expanded" >
+        <div class="text" ng-click="beiriCtrl.collapseYears(year.year); year.expanded = !year.expanded" >
           <h2>{{ year.year }}</h2>
           <h3 ng-show="year.expanded">{{ year.ngigs }} bolos</h3>
         </div>
-        <div class="cover" ng-hide="year.expanded" ng-click="year.expanded = !year.expanded" ng-class="{mouseover: mouseover}">
-          <img src="{{ year.coverpic }}" />
+        <div class="cover" ng-hide="year.expanded" ng-click="beiriCtrl.collapseYears(year.year); year.expanded = !year.expanded" ng-class="{mouseover: mouseover}">
+          <img ng-src="{{ year.coverpic }}" />
         </div>
         <ul class="bolos" ng-show="year.expanded">
-          <li class="bolo" id="gig{{ gig.id }}" ng-repeat="gig in year.gigs" ng-class="{expanded: gig.expanded}">
+          <li class="bolo" id="gig{{ gig.id }}"
+              ng-repeat="gig in year.gigs"
+              ng-class="{expanded: gig.expanded}">
             <h3 ng-click="beiriCtrl.collapseAll(gig.id); gig.expanded = !gig.expanded">{{ gig.title }}</h3>
             <div class="content" ng-if="gig.expanded">
               <h4>{{ gig.date }}</h4>
@@ -135,7 +137,7 @@
       </span>
       <li ng-repeat="picture in beiriCtrl.carouselPictures">
         <div class="picture" ng-style="{'background-image': 'url(' + picture + ')'}" ng-click="beiriCtrl.log('clicked'); $event.stopPropagation()">
-          <img src="{{ picture }}" alt=""/>
+          <img ng-src="{{ picture }}" alt=""/>
         </div>
       </li>
       <span class="controls next"

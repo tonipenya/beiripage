@@ -65,20 +65,6 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
                 scrollTo('contact');
                 break;
 
-            case 'pictures':
-                expand(function (gig) {
-                    return gig.content && gig.content.pictures
-                            && gig.content.pictures.thumbnails
-                            && gig.content.pictures.thumbnails.length > 0;
-                });
-                break;
-
-            case 'videos':
-                expand(function (gig) {
-                    return gig.content && gig.content.youtube;
-                });
-                break;
-
             case 'about':
                 $scope.aboutExpanded = true;
                 scrollTo('about');
@@ -94,11 +80,11 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
         console.log('contact form filled with: ' + msg);
     };
 
-    this.collapseYears = function() {
-        $scope.years[0].expanded = true;
-
-        for (var i = 1; i < $scope.years.length; i++) {
-            $scope.years[i].expanded = false;
+    this.collapseYears = function(exceptionYear) {
+        for (var i = 0; i < $scope.years.length; i++) {
+            if ($scope.years[i].year != exceptionYear) {
+                $scope.years[i].expanded = false;
+            }
         }
     };
 
@@ -166,7 +152,8 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
                 $scope.years = years;
                 $scope.totalGigs = totalGigs;
 
-                ctrl.collapseYears();
+                $scope.years[0].expanded = true;
+                ctrl.collapseYears($scope.years[0].year);
                 ctrl.collapseAll();
         });
     }
@@ -185,22 +172,4 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
         var element = angular.element(document.getElementById(id));
         $document.scrollToElementAnimated(element);
     }
-
-    function expand(condition) {
-        var firstGigId;
-        for (var i in $scope.years) {
-            var year = $scope.years[i];
-
-            for (var j in year.gigs) {
-                var gig = year.gigs[j]
-                if (condition(gig)) {
-                    firstGigId = firstGigId? firstGigId: gig.id;
-                    $scope.years[i].gigs[j].expanded = true;
-                }
-            }
-        }
-
-        scrollTo('gig' + firstGigId);
-    };
-
 }]);
