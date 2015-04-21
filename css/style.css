@@ -210,13 +210,23 @@ body {
   line-height: 1em;
 }
 
+#contact h3 {
+    background-image: url("../img/baquetes.png");
+}
+
+#about h3 {
+    background-image: url("../img/baqueta.png");
+}
+
+#contact h3, #about h3 {
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: center;
+    background-position-x: 0;
+}
+
 #contact, #about {
     cursor: pointer;
-      background-image: url("../img/baquetes.png");
-      background-repeat: no-repeat;
-      background-size: 200px;
-      background-position-y: 0;
-      background-position-x: 0;
 }
 
 #contact:hover, #about:hover {

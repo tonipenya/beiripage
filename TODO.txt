@@ -1,3 +1,4 @@
+- estilar youtube.
 - els thumbnails queden tallats quan la pantalla es petita.
 - no fer scroll a la pagina quan hi ha la galeria.
 - el navbar fa coses rares amb les imatges quan canvia de mida.
