@@ -87,7 +87,9 @@
           <li class="bolo" id="gig{{ gig.id }}"
               ng-repeat="gig in year.gigs"
               ng-class="{expanded: gig.expanded}">
-            <h3 ng-click="beiriCtrl.collapseAll(gig.id); gig.expanded = !gig.expanded">{{ gig.title }}</h3>
+            <h3 ng-click="beiriCtrl.collapseAll(gig.id); gig.expanded = !gig.expanded">
+              <span>{{ gig.title }}</span>
+            </h3>
             <div class="content" ng-if="gig.expanded">
               <h4>{{ gig.date }}</h4>
               <p>
