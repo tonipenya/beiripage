@@ -62,10 +62,26 @@
     <div class="container contact" id="contact">
       <h3 ng-click="contactExpanded = !contactExpanded">El teu bolo</h3>
       <div class="content" ng-show="contactExpanded">
-        <h4>Tu decideixes la data</h4>
         <form ng-click="beiriCtrl.contact(msg)">
-          <textarea ng-model="msg"></textarea>
-          <input type="submit" value="Enviar"></input>
+          <div class="row">
+            <div class="left">
+              <label for="name">Nom:
+              <input id="name" type="text" name="name" value="">
+              </label>
+              <label for="phone">Telèfon:</label>
+              <input id="phone" type="text" name="phone" value="">
+              <label for="mail">Email:</label>
+              <input id="mail" type="text" name="mail" value="">
+            </div>
+            <div class="right">
+              <label for="msg">Què ens vols dir?</label>
+              <textarea id="msg" ng-model="msg"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Enviar"></input>
+          </div>
+
         </form>
       </div>
     </div>

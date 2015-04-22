@@ -218,18 +218,19 @@ body {
     background-image: url("../img/baqueta.png");
 }
 
+#contact .content {
+    padding-bottom: 20px;
+}
+
 #contact h3, #about h3 {
     background-repeat: no-repeat;
     background-size: 200px;
     background-position-y: center;
     background-position-x: 0;
-}
-
-#contact, #about {
     cursor: pointer;
 }
 
-#contact:hover, #about:hover {
+#contact h3:hover, #about h3:hover {
     background-color: #fdefaf;
     transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
 }
@@ -238,6 +239,65 @@ body {
     margin: 0;
     font-size: 60px;
     padding: 10px;
+}
+
+#contact form {
+    display: inline-block;
+    color: #482683;
+    font-size: 20px;
+}
+
+#contact form .row {
+    text-align: right;
+}
+
+#contact form input[type=submit]{
+    border: none;
+    font-size: 20px;
+    font-family: 'libel_suitregular';
+    letter-spacing: 2px;
+    color: #fffdf6;
+    background: #482683;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#contact form input[type=submit]:hover {
+    background: #603BA3
+}
+
+#contact .left, #contact .right {
+    padding: 0 10px;
+    display: table-cell;
+    text-align: left;
+}
+
+#contact label, #contact input, #contact textarea {
+    display: block;
+}
+
+#contact .left input, #contact .right textarea {
+    width: 260px;
+    border: 2px solid #482683;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: none;
+}
+
+#contact .right textarea {
+    height: 138px;
+}
+
+#contact input:focus, #contact textarea:focus {
+    border: 2px solid #603BA3;
+    box-shadow: 0px 0px 2px #603BA3;
+    outline: none;
+}
+
+label[for=#name]:focus {
+    color: #ffdf43;
 }
 
 .year {
