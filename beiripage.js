@@ -102,22 +102,29 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
     };
 
     this.showCarousel = function (gig, index) {
+        // TODO: This function hurts my eyes. Please refactor.
+        this.carouselPictures = [];
         if (gig) {
-            this.carouselPictures = gig.content.pictures.fullsize;
+            var pictures = gig.content.pictures.fullsize;
+            for (var k in pictures) {
+                this.carouselPictures.push({url: pictures[k], title: gig.title});
+            }
         } else {
-            this.carouselPictures = [];
             for (var i in $scope.years) {
                 for (var j in $scope.years[i].gigs) {
                     var gig = $scope.years[i].gigs[j];
 
                     if (gig.content && gig.content.pictures
-                        && gig.content.pictures.fullsize) {
-                        this.carouselPictures = this.carouselPictures.concat(gig.content.pictures.fullsize);
+                                    && gig.content.pictures.fullsize) {
+                        var pictures = gig.content.pictures.fullsize;
+                        for (var k in pictures) {
+                            this.carouselPictures.push({url: pictures[k], title: gig.title});
+                        }
                     }
                 }
             }
         }
-        
+
         this.carouselVisible = true;
         this.carouselIndex = index? index: 0;
     };

@@ -1,7 +1,5 @@
-- Ojo amb la ultima foto (es vertical i queda tallada).
-- Peu de fotos.
+- Ajustar l'ample i l'alçada de les fotos com a percentatge i no amb mida fixa.
 - estilar youtube.
 - els thumbnails queden tallats quan la pantalla es petita.
-- no fer scroll a la pagina quan hi ha la galeria.
 - formulari de contacte que faci algo.
 - comptadors amb la animacio de comptar de 0 al numero que toqui.

@@ -415,17 +415,36 @@ ul[rn-carousel]>li {
     text-align: center;
 }
 
-ul[rn-carousel] .picture {
+ul[rn-carousel] .frame{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
     display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul[rn-carousel] .picture {
+    position: relative;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 ul[rn-carousel] .picture img {
     visibility: hidden;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 1000px;
+    max-height: 600px;
+}
+
+ul[rn-carousel]>li .title {
+    color: #fffdf6;
+    font-size: 22px;
+    background-color: #603BA3;
+    margin-top: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 ul[rn-carousel] .controls {
@@ -444,13 +463,6 @@ ul[rn-carousel] .controls.prev {
 
 ul[rn-carousel] .controls.next {
     right: 0.5em;
-}
-
-/* Verticaly align them */
-ul[rn-carousel] .picture {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .footer {

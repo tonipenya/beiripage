@@ -136,12 +136,16 @@
         <
       </span>
       <li ng-repeat="picture in beiriCtrl.carouselPictures">
-        <div class="picture" ng-style="{'background-image': 'url(' + picture + ')'}" ng-click="beiriCtrl.log('clicked'); $event.stopPropagation()">
-          <img ng-src="{{ picture }}" alt=""/>
+        <div class="frame">
+          <div class="picture"
+               ng-style="{'background-image': 'url(' + picture.url + ')'}"
+               ng-click="beiriCtrl.log('clicked'); $event.stopPropagation()">
+            <img ng-src="{{ picture.url }}" alt=""/>
+          </div>
+          <div class="title">
+            {{ picture.title }}
+          </div>
         </div>
-        <!-- <div class="title">
-          Nom del bolo
-        </div> -->
       </li>
       <span class="controls next"
             ng-click="beiriCtrl.nextPicture(); $event.stopPropagation()"
