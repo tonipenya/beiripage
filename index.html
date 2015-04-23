@@ -63,16 +63,16 @@
     <div class="container contact" id="contact">
       <h3 ng-click="contactExpanded = !contactExpanded">El teu bolo</h3>
       <div class="content" ng-show="contactExpanded">
-        <form ng-click="beiriCtrl.contact(msg)">
+        <form ng-submit="beiriCtrl.contact(name, phone, mail, msg)">
           <div class="row">
             <div class="left">
               <label for="name">Nom:
-              <input id="name" type="text" name="name" value="">
+              <input id="name" type="text" name="name" ng-model="name">
               </label>
               <label for="phone">Telèfon:</label>
-              <input id="phone" type="text" name="phone" value="">
+              <input id="phone" type="text" name="phone" ng-model="phone">
               <label for="mail">Email:</label>
-              <input id="mail" type="text" name="mail" value="">
+              <input id="mail" type="text" name="mail" ng-model="mail">
             </div>
             <div class="right">
               <label for="msg">Què ens vols dir?</label>
@@ -117,13 +117,13 @@
                   <img ng-src="{{ picture }}" alt=""/>
                 </div>
               </div>
-              <youtube-video video-url="gig.content.youtube"></youtube-video>
+              <youtube-video player-width="'635px'" video-url="gig.content.youtube"></youtube-video>
             </div>
           </li>
         </ul>
       </div>
     </ul>
-    <div class="container about" id="about">
+    <div class="container about" id="about" ng-class="{expanded: aboutExpanded}">
       <h3 ng-click="aboutExpanded = !aboutExpanded">Què és Beirão</h3>
       <div class="content" ng-show="aboutExpanded">
         <h4>Barcelona / Sagrada Família / 25 d'Abril, 2013</h4>

@@ -76,16 +76,51 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
         }
     };
 
-    this.contact = function(msg) {
-        console.log('contact form filled with: ' + msg);
-		$http.post('https://8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650@api.mailjet.com/v3/send/message', {from:'info@beiraopercussio.cat', to: 'mpanareda@gmail.com', subject: 'prova beirao', body: 'funciona el mail'}).
-			success(function(data, status, headers, config) {
+    this.contact = function(name, phone, mail, msg) {
+        var DEST = 'tonipenyaalba@gmail.com';
+        console.log({
+                    from: mail,
+                    to: DEST,
+                    subject: 'Missatge de ' + name + ' ' + phone,
+                    text: msg
+                });
+
+        $http.defaults.headers.common = {"Access-Control-Request-Headers": "accept, origin, authorization"}; //you probably don't need this line.  This lets me connect to my server on a different domain
+        $http.defaults.headers.common['Authorization'] = 'Basic ' + '8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650';
+
+        // var req = {
+        //         method: 'POST',
+        //         url: 'https://api.mailjet.com/v3/send/message',
+        //         headers: {
+        //             "Access-Control-Request-Headers": "accept, origin, authorization",
+        //             'Authorization': 'Basic ' + '8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650'
+        //         },
+        //         data: {
+        //             from: mail,
+        //             to: DEST,
+        //             subject: 'Missatge de ' + name + ' ' + phone,
+        //             body: msg
+        //         }
+        // };
+        //
+        //
+		// $http(req)
+		$http
+            .post('https://api.mailjet.com/v3/send/message'
+            // .post('https://8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650@api.mailjet.com/v3/send/message'
+                , {
+                    from: mail,
+                    to: DEST,
+                    subject: 'Missatge de ' + name + ' ' + phone,
+                    body: msg
+                })
+            .success(function(data, status, headers, config) {
 				// this callback will be called asynchronously
 				// when the response is available
 				console.log('yes!');
-				
-			}).
-			error(function(data, status, headers, config) {
+
+			})
+			.error(function(data, status, headers, config) {
 				// called asynchronously if an error occurs
 				// or server returns response with an error status.
 				console.log('no!');
@@ -160,7 +195,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
             this.carouselIndex++;
         }
     };
-	
+
     loadYears();
     loadLikes();
 
