@@ -586,3 +586,33 @@ ul[rn-carousel] .controls.next {
     max-height: 5000px;     /* Big enough value to make it work*/
     transition: max-height 0.25s ease-in;
 }
+
+
+/* Stuff in case we don't make the form work */
+/*
+#contact .content {
+    font-size: 20px;
+}
+
+#contact .row {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+#contact .left, #contact .right {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact h4 {
+    color: #482683;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+*/

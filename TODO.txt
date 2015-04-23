@@ -2,7 +2,7 @@
     Ara mateix al fer click a about s'expandeix pero no fa scroll i queda tot fora de la vista.
 - formulari de contacte que faci algo.
 - galeria per youtube.
-- Animacions per quan s'obren els anys i els posts.
+- Animacions per quan s'obren els anys.
 - Ajustar l'ample i l'alçada de les fotos com a percentatge i no amb mida fixa.
 - els thumbnails queden tallats quan la pantalla es petita.
 - comptadors amb la animacio de comptar de 0 al numero que toqui.

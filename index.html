@@ -68,6 +68,19 @@
     <div class="container contact" id="contact" ng-class="{expanded: contactExpanded}">
       <h3 ng-click="beiriCtrl.collapseAll('contact'); contactExpanded = !contactExpanded">El teu bolo</h3>
       <div class="content" ng-show="contactExpanded">
+        <!-- In case we don't get the form working
+        La nostra propera actuació pot ser la teva.
+        <div class="row">
+          <div class="left">
+            <h4>Envia'ns un mail</h4>
+            info@beiraopercussio.cat
+          </div>
+          <div class="right">
+            <h4>Truca'ns</h4>
+            +34 666 666 666
+          </div>
+        </div>
+        -->
         <form ng-submit="beiriCtrl.contact(name, phone, mail, msg)">
           <div class="row">
             <div class="left">
