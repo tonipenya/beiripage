@@ -6,7 +6,6 @@
     white           #fffdf6
     black           #2e2d2c
 */
-
 body {
     margin: 0px;
     color: #2e2d2c;
@@ -575,4 +574,15 @@ ul[rn-carousel] .controls.next {
 
 .footer img {
     height: 20px;
+}
+
+.bolo .content, #contact .content, #about .content{
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+}
+
+.bolo.expanded .content, #contact.expanded .content, #about.expanded .content {
+    max-height: 5000px;     /* Big enough value to make it work*/
+    transition: max-height 0.25s ease-in;
 }

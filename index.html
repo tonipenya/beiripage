@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.5/angular-scroll.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.js"></script>
     <script src="lib/angular-youtube-embed.js"></script>
     <script src="lib/angular-touch.min.js"></script>
     <script src="lib/angular-carousel.min.js"></script>
@@ -19,7 +20,7 @@
   <body ng-controller="BeiriController as beiriCtrl">
     <div class="navbar" data-navscroll ng-class="{min: shrinkNav}">
       <div class="logo">
-        <a href="#" ng-click="beiriCtrl.expand('none')"></a>
+        <a href="#top" du-smooth-scroll></a>
       </div>
       <span class="links">
         <div class="social">
@@ -31,8 +32,12 @@
         <div class="self">
           <a href="" ng-click="beiriCtrl.showCarousel()">Fotos</a>
           <a href="" ng-click="">Videos</a>
-          <a href="" ng-click="beiriCtrl.expand('contact')">Contacte</a>
-          <a href="" ng-click="beiriCtrl.expand('about')">Què és Beirão</a>
+          <a href="#contact" ng-click="beiriCtrl.collapseAll(); contactExpanded = true" du-smooth-scroll>
+            Contacte
+          </a>
+          <a href="#about" ng-click="beiriCtrl.collapseAll(); aboutExpanded = true" du-smooth-scroll>
+            Què és Beirão
+          </a>
         </div>
       </span>
     </div>
@@ -40,7 +45,7 @@
     <div class="call">
       <span class="moto">Som ritme, <br>som energia, <br>som percussió.</span>
     </div>
-    <div class="re-cover">
+    <div class="re-cover" id="top">
     </div>
 
     <div class="container">
@@ -60,8 +65,8 @@
       </div>
     </div>
 
-    <div class="container contact" id="contact">
-      <h3 ng-click="contactExpanded = !contactExpanded">El teu bolo</h3>
+    <div class="container contact" id="contact" ng-class="{expanded: contactExpanded}">
+      <h3 ng-click="beiriCtrl.collapseAll('contact'); contactExpanded = !contactExpanded">El teu bolo</h3>
       <div class="content" ng-show="contactExpanded">
         <form ng-submit="beiriCtrl.contact(name, phone, mail, msg)">
           <div class="row">
@@ -124,7 +129,7 @@
       </div>
     </ul>
     <div class="container about" id="about" ng-class="{expanded: aboutExpanded}">
-      <h3 ng-click="aboutExpanded = !aboutExpanded">Què és Beirão</h3>
+      <h3 ng-click="beiriCtrl.collapseAll('about'); aboutExpanded = !aboutExpanded">Què és Beirão</h3>
       <div class="content" ng-show="aboutExpanded">
         <h4>Barcelona / Sagrada Família / 25 d'Abril, 2013</h4>
           <p>

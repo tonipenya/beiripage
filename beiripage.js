@@ -1,12 +1,13 @@
 var app = angular.module('BeiriPage', ['youtube-embed',
                                         'duScroll',
                                         'angular-carousel',
-                                        'cfp.hotkeys']);
+                                        'cfp.hotkeys',
+                                        'ngAnimate']);
 
-app.value('duScrollDuration', 500);
-app.value('duScrollOffset', 20);
+app.value('duScrollDuration', 600);
+app.value('duScrollOffset', 50);
 
-app.directive("navscroll", function($window) {
+app.directive('navscroll', function($window) {
     return function(scope, element, attrs) {
         angular.element($window).bind("scroll", function() {
             var YOFFSET_SHRINK = 420;
@@ -34,7 +35,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
 
     hotkeys.add({
         combo: 'right',
-        description: 'This one goes to 11',
+        description: 'Next image in carousel',
         callback: function() {
             ctrl.carouselIndex++;
         }
@@ -42,7 +43,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
 
     hotkeys.add({
         combo: 'left',
-        description: 'This one goes to 11',
+        description: 'Previous image in carousel',
         callback: function() {
             ctrl.carouselIndex--;
         }
@@ -50,31 +51,11 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
 
     hotkeys.add({
         combo: 'esc',
-        description: 'This one goes to 11',
+        description: 'Closes carousel',
         callback: function() {
             ctrl.carouselVisible = false;
         }
     });
-
-    this.expand = function(view) {
-        this.collapseAll();
-
-        switch (view) {
-            case 'contact':
-                $scope.contactExpanded = true;
-                scrollTo('contact');
-                break;
-
-            case 'about':
-                $scope.aboutExpanded = true;
-                scrollTo('about');
-                break;
-
-            default:
-                $document.scrollTo(0,0);
-                break;
-        }
-    };
 
     this.contact = function(name, phone, mail, msg) {
         var DEST = 'tonipenyaalba@gmail.com';
@@ -116,8 +97,13 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
     };
 
     this.collapseAll = function(exceptionId) {
-        $scope.aboutExpanded = false;
-        $scope.contactExpanded = false;
+        if ('about' != exceptionId) {
+            $scope.aboutExpanded = false;
+        }
+
+        if ('contact' != exceptionId) {
+            $scope.contactExpanded = false;
+        }
 
         for (var i in $scope.years) {
             for (var j in $scope.years[i].gigs) {
@@ -215,10 +201,5 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
             .error(function () {
                 $scope.likes = '---';
             });
-    }
-
-    function scrollTo(id) {
-        var element = angular.element(document.getElementById(id));
-        $document.scrollToElementAnimated(element);
     }
 }]);
