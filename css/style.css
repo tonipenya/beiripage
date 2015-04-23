@@ -431,7 +431,7 @@ label[for=#name]:focus {
     max-width: 635px;
 }
 
-.timeline h4 {
+.timeline h4, #about h4 {
     color: #999;
     display: inline-block;
     font-size: 18px;
