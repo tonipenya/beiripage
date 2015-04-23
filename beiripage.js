@@ -85,29 +85,9 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
                     text: msg
                 });
 
-        $http.defaults.headers.common = {"Access-Control-Request-Headers": "accept, origin, authorization"}; //you probably don't need this line.  This lets me connect to my server on a different domain
-        $http.defaults.headers.common['Authorization'] = 'Basic ' + '8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650';
 
-        // var req = {
-        //         method: 'POST',
-        //         url: 'https://api.mailjet.com/v3/send/message',
-        //         headers: {
-        //             "Access-Control-Request-Headers": "accept, origin, authorization",
-        //             'Authorization': 'Basic ' + '8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650'
-        //         },
-        //         data: {
-        //             from: mail,
-        //             to: DEST,
-        //             subject: 'Missatge de ' + name + ' ' + phone,
-        //             body: msg
-        //         }
-        // };
-        //
-        //
-		// $http(req)
 		$http
             .post('https://api.mailjet.com/v3/send/message'
-            // .post('https://8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650@api.mailjet.com/v3/send/message'
                 , {
                     from: mail,
                     to: DEST,
