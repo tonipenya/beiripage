@@ -6,24 +6,30 @@
         "gigs": [
             {
                 "title": "Port Aventura - 20è aniversari",
-                "date": "Vila-Seca / 01 de Maig de 2015"
+                "date": "Vila-Seca / 01 de Maig de 2015",
+                "content": {
+                    "desc": "En una data especial com aquesta, Port Aventura compta amb la nostra presència per animar la vetllada als usuaris del parc. Al llarg de tota la tarda-nit, oferim diversos passes en els diferents ambients del recinte, perquè més enllà de les atraccions, la seva estada sigui festiva en tots els aspectes. "
+                }
             },
             {
                 "title": "2n Aniversari Beirão Percussió",
                 "date": "Barcelona / Sagrada Família / 25 d'Abril de 2015",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
+                    "desc": "Amb motiu de l’aniversari, Beirão, amb la col·laboració de grups de percussió convidats, fem vibrar el nostre barri (Sagrada Família, Barcelona), amb ritmes plens de vida. La festa comença amb un cercavila per l’Avinguda Gaudí i finalitza amb espectacles estàtics davant l’emblemàtica Basílica."
                 }
             },
             {
                 "title": "Sant Medir",
-                "date": "Barcelona / Gràcia / 03 de Març de 2015"
+                "date": "Barcelona / Gràcia / 03 de Març de 2015",
+                "content": {
+                    "desc": "Dins la popular festa de Sant Medir, brindem la nostra música pel barri de Gràcia (Barcelona), acompanyant la 'Colla humorística' en la cercavila més dolça de l’any, on els carrers s’omplen de caramels i llaminadures amb el pas dels cavalls i les carrosses."
+                }
             },
             {
                 "title": "Any nou Xinès",
                 "date": "Barcelona / 21 de Febrer de 2015",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Per segon any consecutiu, els organitzadors de l’Any Nou Xinès de Barcelona, han tornat a confiar en nosaltres per acompanyar-los i fer de la seva celebració un espectacle multicultural. Hem participat en la rua pels carrers de la ciutat, finalment, concloent amb un lluïment estàtic sobre l’escenari de l’Arc de Triomf.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/any_nou_xines_2015_1.jpg",
@@ -44,7 +50,7 @@
                 "title": "Carnestoltes a Nou Barris",
                 "date": "Barcelona / Nou Barris / 14 de Febrer de 2015",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Carnaval és, per nosaltres, una època de molta activitat. Ens posem la nostra millor disfressa i no dubtem a sumar-nos a aquesta celebració, ja sigui acompanyant escoles, entitats de barri o festes privades. Enguany, sota l’aparença de “Super Beirãos” hem animat la rua de Roquetes, i, a continuació, la cercavila central de Nou Barris.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/carnestoltes_nou_barris_2015_1.jpg",
@@ -80,14 +86,14 @@
                 "title": "Festival de la Infància",
                 "date": "Barcelona / Montjuïc / 03 de Gener de 2015",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
+                    "desc": "Toquem al Festival de la Infància de Barcelona, cobrint tot el recinte, per animar l’ambient i fer que tots els membres de la família puguin gaudir de la fira en tot moment."
                 }
             },
             {
                 "title": "I altres ...",
                 "date": "",
                 "content": {
-                    "desc": "Hem participat en molts actes, com la celebració del centenari de l'escola Pompeu Fabra, a Badalona, etc. "
+                    "desc": "Participem en molts actes, com la celebració del centenari de l'escola Pompeu Fabra, a Badalona, etc. "
                 }
             }
         ]
@@ -101,14 +107,14 @@
                 "title": "La Marató de TV3",
                 "date": "14 de Desembre de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie."
+                    "desc": "Com a grup compromès, participem en un dels actes de la Marató de TV3, destinat a recaptar fons per la cura de malalties del cor."
                 }
             },
             {
                 "title": "Classe de Zumba al Claror",
                 "date": "Barcelona / Sagrada Família / 27 de Setembre i 19 d'Octubre de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "En diverses ocasions, interpretem el nostre repertori en classes de Zumba en col•laboració amb el Centre Esportiu Municipal Claror. La classe de Zumba i Beirão Percussió es fusionen per crear una activitat conjunta de música i ball en directe; una manera diferent i innovadora d’impartir aquesta activitats esportiva.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/zumba_2014_1.jpg",
@@ -129,7 +135,7 @@
                 "title": "Mercè 2014",
                 "date": "Barcelona / Barri Gòtic / 20 i 21 de Setembre de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Entre els actes de la festa major de la Mercè, la més gran de Barcelona, acompanyem la bèstia de la Farfolla de la Sagrada Família durant la passejada de bèsties i el correfoc. A més a més, participem a la tabalada, omplint de ritme els carrers del centre de Barcelona.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/merce_2014_1.jpg",
@@ -146,7 +152,7 @@
                 "title": "Port Aventura - Oktoberfest",
                 "date": "Vila-Seca / 12, 13 i 19 de Setembre de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/port_aventura_oktoberfest_2014_1.jpg",
@@ -169,7 +175,7 @@
                 "title": "Port Aventura - Festa Pirata",
                 "date": "Vila-Seca / 16 d'Agost de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits.",
                     "pictures": {
                         "thumbnails": [
                            "img/gigs/thumbnails/port_aventura_pirata_2014_1.jpg",
@@ -189,10 +195,10 @@
                 }
             },
             {
-                "title": "Port Aventura - Nit Blanca",
+                "title": "Port Aventura - New Generation",
                 "date": "Vila-Seca / 26 de Juliol de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits. ",
                     "pictures": {
                         "thumbnails": [
                            "img/gigs/thumbnails/port_aventura_blanca_2014_1.jpg",
@@ -215,7 +221,7 @@
                 "title": "XV Jornada de Portes Obertes de la​ Fundació Germans Aymar i Puig",
                 "date": "Alella / 05 de Juliol de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
+                    "desc": "Actuem en una residència de Gent gran el dia de les famílies, acompanyant als convidats amb l’objectiu de fer passar una bona estona a un públic de totes les edats."
                 }
             },
             {
@@ -227,16 +233,12 @@
             },
             {
                 "title": "Revetlla de Sant Joan a Sagrada Família",
-                "date": "Barcelona / Sagrada Família / 23 de Juny de 2014",
-                "content": {
-                    "desc": "descripcio del bolo amb descripcio"
-                }
+                "date": "Barcelona / Sagrada Família / 23 de Juny de 2014"
             },
             {
                 "title": "Festival Kutuprá",
                 "date": "Barcelona / Vila Olímpica / 21 de Juny de 2014",
                 "content": {
-                    "desc": "descripcio del bolo amb descripcio",
                     "pictures": {
                         "thumbnails": [
                            "img/gigs/thumbnails/kutupra_2014_1.jpg",
@@ -257,14 +259,14 @@
                 "title": "Concerts al barri de La Prosperitat",
                 "date": "Barcelona / Nou Barris / 30 i 31 de Maig de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. "
+                    "desc": "Durant la festa major del barri de la Prosperitat (Barcelona), Beirão oferim el nostre espectacle musical. Ens encarreguem d’amenitzar les estones entre concert i concert per mantenir l’ambient festiu i fer gaudir al públic en tot moment."
                 }
             },
             {
                 "title": "AS de Repiques 2014",
                 "date": "Vilassar / 17 de Maig de 2014",
                 "content": {
-                    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis ante. Praesent ac ligula ac lacus pulvinar hendrerit. Integer in lacus nisi. Mauris pulvinar nisi eu bibendum ultricies. Fusce scelerisque in dui non molestie. ",
+                    "desc": "Beirão participem amb la intenció de donar-nos a conèixer davant d’un públic de més de 1000 persones i d’uns 50 grups concursants. Tot i ser el primer concurs en què participem, el resultat és tot un èxit: la nostra feina i constància es veu recompensada aconseguint un gran reconeixement per part del jurat i del públic. En la III edició del concurs solidari de percussió As de Repiques, Beirão quedem 9ens en la classificació general, 3rs per votació popular i finalistes de la fase energia. ",
                     "youtube": "cUmOx3m_WJU"
                 }
             },

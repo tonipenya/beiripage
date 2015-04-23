@@ -78,7 +78,19 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
 
     this.contact = function(msg) {
         console.log('contact form filled with: ' + msg);
-    };
+		$http.post('https://8925958ecf7b7596d7243473c897b51c:d298e35a3b0fa04532a89f4326ac3650@api.mailjet.com/v3/send/message', {from:'info@beiraopercussio.cat', to: 'mpanareda@gmail.com', subject: 'prova beirao', body: 'funciona el mail'}).
+			success(function(data, status, headers, config) {
+				// this callback will be called asynchronously
+				// when the response is available
+				console.log('yes!');
+				
+			}).
+			error(function(data, status, headers, config) {
+				// called asynchronously if an error occurs
+				// or server returns response with an error status.
+				console.log('no!');
+			});
+	};
 
     this.collapseYears = function(exceptionYear) {
         for (var i = 0; i < $scope.years.length; i++) {
@@ -148,7 +160,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
             this.carouselIndex++;
         }
     };
-
+	
     loadYears();
     loadLikes();
 

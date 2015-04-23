@@ -131,15 +131,17 @@ body {
 }
 
 .call .moto {
-  color: #fffdf6;
+  font-family: 'finitaregular';
+  color: #ffdf43;
   text-shadow: 4px 4px 25px #000, 2px 2px 5px rgba(0, 0, 0, 0.5);
-  font-size: 6.5vw;
+  font-size: 6vw;
   position: absolute;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  top: 50%;
+  top: 56%;
   transform: translateY(-50%);
   text-transform: uppercase;
+  margin-left: 5%;
 }
 
 .call .cover {
@@ -239,6 +241,31 @@ body {
     margin: 0;
     font-size: 60px;
     padding: 10px;
+}
+
+#about p {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .content {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+#about .content::before {
+    content: "";
+    background: url('../img/imago.png');
+    opacity: 0.3;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 #contact form {
@@ -427,10 +454,6 @@ label[for=#name]:focus {
     padding-top: 10px;
 }
 
-.content p {
-    max-width: 635px;
-}
-
 .timeline h4, #about h4 {
     color: #999;
     display: inline-block;
@@ -440,11 +463,16 @@ label[for=#name]:focus {
 }
 
 .content p {
-    margin: 0px;
+    max-width: 635px;
+	margin: 0 4%;
     font-size: 20px;
 }
 
-.content h4, .content p, .content .thumbnails {
+.bolo .content p {
+	margin-left: 0;
+}
+
+.content h4, .content p, .content {
     padding-bottom: 20px;
 }
 
