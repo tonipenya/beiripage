@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'finitaregular';
+    src: url('Finita-webfont.eot');
+    src: url('Finita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Finita-webfont.woff2') format('woff2'),
+         url('Finita-webfont.woff') format('woff'),
+         url('Finita-webfont.ttf') format('truetype'),
+         url('Finita-webfont.svg#finitaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
