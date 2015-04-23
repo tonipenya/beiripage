@@ -43,6 +43,15 @@
     </div>
 
     <div class="call">
+      <ul class="image"
+          rn-carousel rn-carousel-buffered rn-carousel-auto-slide="10"
+          rn-carousel-transition="zoom" rn-carousel-duration="1000">
+        <li ng-repeat="picture in beiriCtrl.coverPictures">
+            <div class="picture"
+                 ng-style="{'background-image': 'url(' + picture + ')'}">
+            </div>
+        </li>
+      </ul>
       <span class="moto">Som ritme, <br>som energia, <br>som percussió.</span>
     </div>
     <div class="re-cover" id="top">
@@ -161,7 +170,7 @@
       Beirão Percussió | 2015 | Difusió Team
     </div>
 
-    <ul class="image"
+    <ul id="carousel"
         ng-show="beiriCtrl.carouselVisible"
         ng-click="beiriCtrl.carouselVisible = false"
         rn-carousel-index="beiriCtrl.carouselIndex"
@@ -175,7 +184,7 @@
         <div class="frame">
           <div class="picture"
                ng-style="{'background-image': 'url(' + picture.url + ')'}"
-               ng-click="beiriCtrl.log('clicked'); $event.stopPropagation()">
+               ng-click="$event.stopPropagation()">
             <img ng-src="{{ picture.url }}" alt=""/>
           </div>
           <div class="title">
