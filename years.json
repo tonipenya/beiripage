@@ -16,7 +16,19 @@
                 "title": "Sant Medir",
                 "date": "Barcelona / Gràcia / 03 de Març de 2015",
                 "content": {
-                    "desc": "Dins la popular festa de Sant Medir, brindem la nostra música pel barri de Gràcia (Barcelona), acompanyant la 'Colla humorística' en la cercavila més dolça de l’any, on els carrers s’omplen de caramels i llaminadures amb el pas dels cavalls i les carrosses."
+                    "desc": "Dins la popular festa de Sant Medir, brindem la nostra música pel barri de Gràcia (Barcelona), acompanyant la 'Colla humorística' en la cercavila més dolça de l’any, on els carrers s’omplen de caramels i llaminadures amb el pas dels cavalls i les carrosses.",
+                    "pictures": {
+                        "thumbnails": [
+                            "img/gigs/thumbnails/st_medir_2015_1.jpg",
+                            "img/gigs/thumbnails/st_medir_2015_2.jpg",
+                            "img/gigs/thumbnails/st_medir_2015_3.jpg"
+                        ],
+                        "fullsize": [
+                            "img/gigs/fullsize/st_medir_2015_1.jpg",
+                            "img/gigs/fullsize/st_medir_2015_2.jpg",
+                            "img/gigs/fullsize/st_medir_2015_3.jpg"
+                        ]
+                    }
                 }
             },
             {
@@ -246,7 +258,8 @@
                            "img/gigs/fullsize/kutupra_2014_3.jpg",
                            "img/gigs/fullsize/kutupra_2014_4.jpg"
                        ]
-                    }
+                   },
+                   "youtube": "txIMmN0PQyQ"
                 }
             },
             {
