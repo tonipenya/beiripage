@@ -68,7 +68,7 @@
           <span class="text">fans</span>
         </span>
         <span class="circle">
-          <span class="number">50</span>
+          <span class="number">82</span>
           <span class="text small">baquetes trencades</span>
         </span>
       </div>
@@ -77,19 +77,19 @@
     <div class="container contact" id="contact" ng-class="{expanded: contactExpanded}">
       <h3 ng-click="beiriCtrl.collapseAll('contact'); contactExpanded = !contactExpanded">El teu bolo</h3>
       <div class="content" ng-show="contactExpanded">
-        <!-- In case we don't get the form working
+        <!-- In case we don't get the form working -->
         La nostra propera actuació pot ser la teva.
         <div class="row">
           <div class="left">
-            <h4>Envia'ns un mail</h4>
+            <a href="mailto:info@beiraopercussio.cat" target="_blank"><h4>Envia'ns un mail</h4></a>
             info@beiraopercussio.cat
           </div>
           <div class="right">
-            <h4>Truca'ns</h4>
-            +34 666 666 666
+            <a href="tel:+34 622 668 334" target="_blank"><h4>Truca'ns</h4></a>
+            +34 622 668 334
           </div>
         </div>
-        -->
+        <!--
         <form ng-submit="beiriCtrl.contact(name, phone, mail, msg)">
           <div class="row">
             <div class="left">
@@ -109,8 +109,7 @@
           <div class="row">
             <input type="submit" value="Enviar"></input>
           </div>
-
-        </form>
+        </form> -->
       </div>
     </div>
 
@@ -143,6 +142,8 @@
                 <div class="thumbnail" ng-click="beiriCtrl.showPhotoCarousel(gig, $index)" ng-repeat="picture in gig.content.pictures.thumbnails | limitTo: 3">
                   <img ng-src="{{ picture }}" alt=""/>
                 </div>
+              </div>
+              <div class="dirty-padding" ng-show="gig.content.pictures">
               </div>
               <youtube-video player-width="'635px'" video-url="gig.content.youtube"></youtube-video>
             </div>

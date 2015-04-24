@@ -6,3 +6,4 @@
 - Ajustar l'ample i l'alçada de les fotos com a percentatge i no amb mida fixa.
 - els thumbnails queden tallats quan la pantalla es petita.
 - comptadors amb la animacio de comptar de 0 al numero que toqui.
+- Quan cliques a fotos va una galeria s'obre una llista de miniatures.

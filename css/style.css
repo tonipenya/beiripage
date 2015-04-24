@@ -114,7 +114,7 @@ body {
 
 .navbar.min .links .social {
     padding-top: 15px;
-    padding-left: 10px;
+    padding-left: 20px;
     float: right;
 }
 
@@ -603,7 +603,7 @@ label[for=#name]:focus {
 
 
 /* Stuff in case we don't make the form work */
-/*
+
 #contact .content {
     font-size: 20px;
 }
@@ -621,12 +621,25 @@ label[for=#name]:focus {
     padding-right: 30px;
 }
 
+#contact a {
+    text-decoration: none;
+}
+
 #contact h4 {
-    color: #482683;
+    background: #482683;
+    color: #fffdf6;
+    padding: 10px 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 28px;
-    margin-bottom: 0;
-    margin-top: 15px;
-    padding-bottom: 10px;
+    cursor: pointer;
 }
-*/
+
+#contact h4:hover {
+    background: #603BA3;
+}
+
+.dirty-padding {
+    height: 10px;
+}
