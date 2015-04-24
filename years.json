@@ -155,8 +155,8 @@
                 }
             },
             {
-                "title": "Port Aventura - Oktoberfest",
-                "date": "Vila-Seca / 12, 13 i 19 de Setembre de 2014",
+                "title": "Port Aventura",
+                "date": "Vila-Seca / Juliol, Agost i Setembre de 2014",
                 "content": {
                     "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits.",
                     "pictures": {
@@ -165,61 +165,35 @@
                             "img/gigs/thumbnails/port_aventura_oktoberfest_2014_2.jpg",
                             "img/gigs/thumbnails/port_aventura_oktoberfest_2014_3.jpg",
                             "img/gigs/thumbnails/port_aventura_oktoberfest_2014_4.jpg",
-                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_5.jpg"
+                            "img/gigs/thumbnails/port_aventura_oktoberfest_2014_5.jpg",
+                            "img/gigs/thumbnails/port_aventura_pirata_2014_1.jpg",
+                            "img/gigs/thumbnails/port_aventura_pirata_2014_2.jpg",
+                            "img/gigs/thumbnails/port_aventura_pirata_2014_3.jpg",
+                            "img/gigs/thumbnails/port_aventura_pirata_2014_4.jpg",
+                            "img/gigs/thumbnails/port_aventura_pirata_2014_5.jpg",
+                            "img/gigs/thumbnails/port_aventura_blanca_2014_1.jpg",
+                            "img/gigs/thumbnails/port_aventura_blanca_2014_2.jpg",
+                            "img/gigs/thumbnails/port_aventura_blanca_2014_3.jpg",
+                            "img/gigs/thumbnails/port_aventura_blanca_2014_4.jpg",
+                            "img/gigs/thumbnails/port_aventura_blanca_2014_5.jpg"
                         ],
                         "fullsize": [
                             "img/gigs/fullsize/port_aventura_oktoberfest_2014_1.jpg",
                             "img/gigs/fullsize/port_aventura_oktoberfest_2014_2.jpg",
                             "img/gigs/fullsize/port_aventura_oktoberfest_2014_3.jpg",
                             "img/gigs/fullsize/port_aventura_oktoberfest_2014_4.jpg",
-                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_5.jpg"
+                            "img/gigs/fullsize/port_aventura_oktoberfest_2014_5.jpg",
+                            "img/gigs/fullsize/port_aventura_pirata_2014_1.jpg",
+                            "img/gigs/fullsize/port_aventura_pirata_2014_2.jpg",
+                            "img/gigs/fullsize/port_aventura_pirata_2014_3.jpg",
+                            "img/gigs/fullsize/port_aventura_pirata_2014_4.jpg",
+                            "img/gigs/fullsize/port_aventura_pirata_2014_5.jpg",
+                            "img/gigs/fullsize/port_aventura_blanca_2014_1.jpg",
+                            "img/gigs/fullsize/port_aventura_blanca_2014_2.jpg",
+                            "img/gigs/fullsize/port_aventura_blanca_2014_3.jpg",
+                            "img/gigs/fullsize/port_aventura_blanca_2014_4.jpg",
+                            "img/gigs/fullsize/port_aventura_blanca_2014_5.jpg"
                         ]
-                    }
-                }
-            },
-            {
-                "title": "Port Aventura - Festa Pirata",
-                "date": "Vila-Seca / 16 d'Agost de 2014",
-                "content": {
-                    "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits.",
-                    "pictures": {
-                        "thumbnails": [
-                           "img/gigs/thumbnails/port_aventura_pirata_2014_1.jpg",
-                           "img/gigs/thumbnails/port_aventura_pirata_2014_2.jpg",
-                           "img/gigs/thumbnails/port_aventura_pirata_2014_3.jpg",
-                           "img/gigs/thumbnails/port_aventura_pirata_2014_4.jpg",
-                           "img/gigs/thumbnails/port_aventura_pirata_2014_5.jpg"
-                        ],
-                        "fullsize": [
-                           "img/gigs/fullsize/port_aventura_pirata_2014_1.jpg",
-                           "img/gigs/fullsize/port_aventura_pirata_2014_2.jpg",
-                           "img/gigs/fullsize/port_aventura_pirata_2014_3.jpg",
-                           "img/gigs/fullsize/port_aventura_pirata_2014_4.jpg",
-                           "img/gigs/fullsize/port_aventura_pirata_2014_5.jpg"
-                       ]
-                    }
-                }
-            },
-            {
-                "title": "Port Aventura - New Generation",
-                "date": "Vila-Seca / 26 de Juliol de 2014",
-                "content": {
-                    "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits. ",
-                    "pictures": {
-                        "thumbnails": [
-                           "img/gigs/thumbnails/port_aventura_blanca_2014_1.jpg",
-                           "img/gigs/thumbnails/port_aventura_blanca_2014_2.jpg",
-                           "img/gigs/thumbnails/port_aventura_blanca_2014_3.jpg",
-                           "img/gigs/thumbnails/port_aventura_blanca_2014_4.jpg",
-                           "img/gigs/thumbnails/port_aventura_blanca_2014_5.jpg"
-                        ],
-                        "fullsize": [
-                           "img/gigs/fullsize/port_aventura_blanca_2014_1.jpg",
-                           "img/gigs/fullsize/port_aventura_blanca_2014_2.jpg",
-                           "img/gigs/fullsize/port_aventura_blanca_2014_3.jpg",
-                           "img/gigs/fullsize/port_aventura_blanca_2014_4.jpg",
-                           "img/gigs/fullsize/port_aventura_blanca_2014_5.jpg"
-                       ]
                     }
                 }
             },
