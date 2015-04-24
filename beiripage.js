@@ -30,8 +30,9 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
     $scope.likes = '---';
     var ctrl = this;
     ctrl.carouselVisible = false;
-    ctrl.carouselPictures = false;
+    ctrl.carouselItems = false;
     ctrl.carouselIndex = 0;
+    ctrl.carouselType = '';
 
     ctrl.coverPictures = [
         'img/cover/slide1.jpg',
@@ -123,13 +124,33 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
         }
     };
 
-    this.showCarousel = function (gig, index) {
-        // TODO: This function hurts my eyes. Please refactor.
-        this.carouselPictures = [];
+    this.showVideoCarousel = function () {
+        this.carouselItems = [];
+        ctrl.carouselType = 'video';
+
+        for (var i in $scope.years) {
+            for (var j in $scope.years[i].gigs) {
+                var gig = $scope.years[i].gigs[j];
+
+                if (gig.content && gig.content.youtube) {
+                    this.carouselItems.push(gig.content.youtube);
+                }
+            }
+        }
+
+        this.carouselVisible = true;
+        this.carouselIndex = 0;
+    };
+
+    this.showPhotoCarousel = function (gig, index) {
+        // TODO: This function hurts my eyes. Please, refactor.
+        this.carouselItems = [];
+        ctrl.carouselType = 'photo';
+
         if (gig) {
             var pictures = gig.content.pictures.fullsize;
             for (var k in pictures) {
-                this.carouselPictures.push({url: pictures[k], title: gig.title});
+                this.carouselItems.push({url: pictures[k], title: gig.title});
             }
         } else {
             for (var i in $scope.years) {
@@ -140,7 +161,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
                                     && gig.content.pictures.fullsize) {
                         var pictures = gig.content.pictures.fullsize;
                         for (var k in pictures) {
-                            this.carouselPictures.push({url: pictures[k], title: gig.title});
+                            this.carouselItems.push({url: pictures[k], title: gig.title});
                         }
                     }
                 }
@@ -152,21 +173,21 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
     };
 
     this.carouselHasNext = function () {
-        return this.carouselIndex < (this.carouselPictures.length-1);
+        return this.carouselIndex < (this.carouselItems.length-1);
     };
 
     this.carouselHasPrev = function () {
         return this.carouselIndex > 0;
     }
 
-    this.prevPicture = function () {
+    this.prevItem = function () {
         if (this.carouselIndex > 0) {
             this.carouselIndex--;
         }
     };
 
-    this.nextPicture = function () {
-        if (this.carouselIndex < this.carouselPictures.length) {
+    this.nextItem = function () {
+        if (this.carouselIndex < this.carouselItems.length) {
             this.carouselIndex++;
         }
     };

@@ -521,7 +521,7 @@ label[for=#name]:focus {
     text-align: center;
 }
 
-#carousel .frame{
+#carousel .frame {
     top: 50%;
     transform: translateY(-50%);
     position: relative;

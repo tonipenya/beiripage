@@ -30,8 +30,8 @@
           <a href="https://twitter.com/beiraopercussio" target="_blank"><img src="img/twitter.png" alt="twitter" /></a>
         </div>
         <div class="self">
-          <a href="" ng-click="beiriCtrl.showCarousel()">Fotos</a>
-          <a href="" ng-click="">Videos</a>
+          <a href="" ng-click="beiriCtrl.showPhotoCarousel()">Fotos</a>
+          <a href="" ng-click="beiriCtrl.showVideoCarousel()" ng-click="">Videos</a>
           <a href="#contact" ng-click="beiriCtrl.collapseAll(); contactExpanded = true" du-smooth-scroll>
             Contacte
           </a>
@@ -140,7 +140,7 @@
                 {{ gig.content.desc }}
               </p>
               <div class="thumbnails">
-                <div class="thumbnail" ng-click="beiriCtrl.showCarousel(gig, $index)" ng-repeat="picture in gig.content.pictures.thumbnails | limitTo: 3">
+                <div class="thumbnail" ng-click="beiriCtrl.showPhotoCarousel(gig, $index)" ng-repeat="picture in gig.content.pictures.thumbnails | limitTo: 3">
                   <img ng-src="{{ picture }}" alt=""/>
                 </div>
               </div>
@@ -176,24 +176,27 @@
         rn-carousel-index="beiriCtrl.carouselIndex"
         rn-carousel rn-carousel-buffered>
       <span class="controls prev"
-            ng-click="beiriCtrl.prevPicture(); $event.stopPropagation()"
+            ng-click="beiriCtrl.prevItem(); $event.stopPropagation()"
             ng-show="beiriCtrl.carouselHasPrev()">
         <
       </span>
-      <li ng-repeat="picture in beiriCtrl.carouselPictures">
-        <div class="frame">
+      <li ng-repeat="item in beiriCtrl.carouselItems">
+        <div class="frame" ng-if="beiriCtrl.carouselType == 'photo'">
           <div class="picture"
-               ng-style="{'background-image': 'url(' + picture.url + ')'}"
+               ng-style="{'background-image': 'url(' + item.url + ')'}"
                ng-click="$event.stopPropagation()">
-            <img ng-src="{{ picture.url }}" alt=""/>
+            <img ng-src="{{ item.url }}" alt=""/>
           </div>
           <div class="title">
-            {{ picture.title }}
+            {{ item.title }}
           </div>
+        </div>
+        <div class="frame" ng-if="beiriCtrl.carouselType == 'video'">
+          <youtube-video player-width="'635px'" video-url="item"></youtube-video>
         </div>
       </li>
       <span class="controls next"
-            ng-click="beiriCtrl.nextPicture(); $event.stopPropagation()"
+            ng-click="beiriCtrl.nextItem(); $event.stopPropagation()"
             ng-show="beiriCtrl.carouselHasNext()">
         >
       </span>
