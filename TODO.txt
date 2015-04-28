@@ -1,3 +1,4 @@
+- og:image. Posar una imatge que quedi chula.
 - al l'expandir posts (o contact o about) assegurar-se que el contingut esta visible.
     Ara mateix al fer click a about s'expandeix pero no fa scroll i queda tot fora de la vista.
 - formulari de contacte que faci algo.
