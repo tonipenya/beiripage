@@ -152,6 +152,10 @@ body {
   text-align: left;
   width: 100%;
   top: 56%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
   transform: translateY(-50%);
   text-transform: uppercase;
   margin-left: 5%;
@@ -563,6 +567,10 @@ label[for=#name]:focus {
     font-size: 2em;
     position: absolute;
     top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 999;
 }
