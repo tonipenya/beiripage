@@ -36,11 +36,10 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
 
     ctrl.coverPictures = [
         'img/cover/slide1.jpg',
-        'img/cover/slide6.jpg',
+        'img/cover/slide2.jpg',
         'img/cover/slide3.jpg',
-        'img/cover/slide5.jpg',
         'img/cover/slide4.jpg',
-        'img/cover/slide2.jpg'
+        'img/cover/slide5.jpg'
     ];
 
     hotkeys.add({

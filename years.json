@@ -10,7 +10,32 @@
             },
             {
                 "title": "2n Aniversari Beirão Percussió",
-                "date": "Pròximament"
+                "date": "Barcelona / Sagrada Família  / 25 d'Abril de 2015",
+                "content": {
+                    "desc": "Amb motiu de l’aniversari, Beirao, amb la col·laboració de grups de percussió convidats, fem vibrar el nostre barri (Sagrada Família, Barcelona), amb ritmes plens de vida. La festa comença amb un cercavila per l’Avinguda Gaudí i finalitza amb espectacles estàtics davant l’emblemàtica Basílica.",
+                    "pictures": {
+                        "thumbnails": [
+                            "img/gigs/thumbnails/aniversari_2015_1.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_2.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_3.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_4.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_5.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_6.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_7.jpg",
+                            "img/gigs/thumbnails/aniversari_2015_8.jpg"
+                        ],
+                        "fullsize": [
+                            "img/gigs/fullsize/aniversari_2015_1.jpg",
+                            "img/gigs/fullsize/aniversari_2015_2.jpg",
+                            "img/gigs/fullsize/aniversari_2015_3.jpg",
+                            "img/gigs/fullsize/aniversari_2015_4.jpg",
+                            "img/gigs/fullsize/aniversari_2015_5.jpg",
+                            "img/gigs/fullsize/aniversari_2015_6.jpg",
+                            "img/gigs/fullsize/aniversari_2015_7.jpg",
+                            "img/gigs/fullsize/aniversari_2015_8.jpg"
+                        ]
+                    }
+                }
             },
             {
                 "title": "Sant Medir",
