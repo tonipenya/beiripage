@@ -6,7 +6,26 @@
         "gigs": [
             {
                 "title": "Port Aventura - 20è aniversari",
-                "date": "Pròximament"
+                "date": "Vila-Seca / 01 de Maig de 2015",
+                "content": {
+                    "desc": "En una data especial com aquesta, Port Aventura compta amb la nostra presència per animar la vetllada als usuaris del parc. Al llarg de tota la tarda-nit, oferim diversos passes en els diferents ambients del recinte, perqué més enllà de les atraccions, la seva estada sigui festiva en tots els aspectes.",
+                    "pictures": {
+                        "thumbnails": [
+                            "img/gigs/thumbnails/port_aventura_aniversari_2015_2.jpg",
+                            "img/gigs/thumbnails/port_aventura_aniversari_2015_1.jpg",
+                            "img/gigs/thumbnails/port_aventura_aniversari_2015_3.jpg",
+                            "img/gigs/thumbnails/port_aventura_aniversari_2015_4.jpg",
+                            "img/gigs/thumbnails/port_aventura_aniversari_2015_5.jpg"
+                        ],
+                        "fullsize": [
+                            "img/gigs/fullsize/port_aventura_aniversari_2015_1.jpg",
+                            "img/gigs/fullsize/port_aventura_aniversari_2015_2.jpg",
+                            "img/gigs/fullsize/port_aventura_aniversari_2015_3.jpg",
+                            "img/gigs/fullsize/port_aventura_aniversari_2015_4.jpg",
+                            "img/gigs/fullsize/port_aventura_aniversari_2015_5.jpg"
+                        ]
+                    }
+                }
             },
             {
                 "title": "2n Aniversari Beirão Percussió",
