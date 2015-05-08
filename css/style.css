@@ -14,6 +14,8 @@ body {
     letter-spacing: 2px;
 }
 
+
+/* NOT MIN */
 .navbar {
     transition: all ease 0.5s;
 }
@@ -23,12 +25,6 @@ body {
     width: 100%;
     height: 130px;
     z-index: 999;
-}
-
-.navbar.min {
-    background-color: #482683;
-    box-shadow: 0px 7px 0px rgba(0,0,0,0.07);
-    height: 50px;
 }
 
 .navbar .logo {
@@ -45,6 +41,60 @@ body {
     background-repeat: no-repeat;
 }
 
+.navbar .logo {
+    height: 100%;
+}
+
+.navbar .links {
+    float: right;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 15px;
+}
+
+.navbar .links .social {
+    padding-bottom: 20px;
+}
+
+.navbar .links .social, .navbar .links .lang {
+    display: inline-block;
+}
+
+.navbar .links .lang {
+    float: right;
+    padding-left: 20px;
+}
+
+.navbar .links .lang, .navbar .links .lang a, .navbar .links .self a {
+    color: #ffdf43;
+
+    text-shadow: 4px 4px 25px #000;
+    text-decoration: none;
+}
+
+.navbar .links .self {
+    margin-right: -10px;
+}
+
+.navbar .links .self a {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.navbar .links .social img {
+    height: 20px;
+}
+
+/* MIN */
+.navbar.min {
+    background-color: #482683;
+    box-shadow: 0px 7px 0px rgba(0,0,0,0.07);
+    height: 50px;
+}
+
+
 .navbar.min .logo a {
     width: 50px;
     background: url('../img/imago.png');
@@ -56,18 +106,6 @@ body {
     background-color: #603BA3;
 }
 
-.navbar .logo {
-    height: 100%;
-}
-
-.navbar .links {
-    float: right;
-    text-align: right;
-    padding-right: 45px;
-    padding-top: 15px;
-    text-shadow: 4px 4px 25px #000;
-}
-
 .navbar.min .links {
     height: 100%;
     padding-top: 0px;
@@ -75,27 +113,11 @@ body {
     text-shadow: none;
 }
 
-.navbar .links .social {
-    padding-bottom: 20px;
-}
-
-.navbar .links .self {
-    margin-right: -10px;
-}
 
 .navbar.min .links .self {
     height: 100%;
     overflow: hidden;
     float: right;
-}
-
-.navbar .links .self a {
-    padding: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #ffdf43;
-    text-decoration: none;
-    font-size: 25px;
 }
 
 .navbar.min .links .self a {
@@ -108,11 +130,7 @@ body {
     background-color: #603BA3;
 }
 
-.navbar .links .social img {
-    height: 20px;
-}
-
-.navbar.min .links .social {
+.navbar.min .links .social, .navbar.min .links .lang {
     padding-top: 15px;
     padding-left: 20px;
     float: right;

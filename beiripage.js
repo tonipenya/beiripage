@@ -1,8 +1,53 @@
-var app = angular.module('BeiriPage', ['youtube-embed',
+var translationsEN = {
+  PHOTOS: 'Photos',
+  VIDEOS: 'Videos',
+  CONTACT: 'Contact',
+  ABOUT_US: 'About Beirão',
+  GIGS: 'gigs',
+  FANS: 'fans',
+  BROKEN_DRUM_STICK: 'drum sticks broken',
+  YOUR_GIG: {
+      TITLE: 'Your gig',
+      HEADING: 'Our next gig could be yours.',
+      EMAIL: 'Email us',
+      CALL: 'Call us'
+  },
+  ABOUT_TEXT: 'Beirão Percussió is a musical project that is born in the neighborhood of Sagrada Família in the year 2013, with the goal of cheering up the crowd with energetic rythms and vitality. Our work is founded in brasilian music spiced up with a personal touch and our own style. We are a band of 20 members ready to turn any event into a full-blown party. <br><br>As a percussion band, we are open to take part into any kind of events; from events that are traditionally matched with percussion in the catalan culture (correfocs, tabalades, trobades de bèsties, cercaviles...), to openings, private events, sport activities, concerts... We are passionate about making any audience enjoy an event no matter its nature. Our performances are apt to any event as long as they are to be accompanied by a special sound.',
+  ABOUT_DATE: 'Barcelona / Sagrada Família / 25 April 2013'
+};
+
+var translationsCA = {
+    PHOTOS: 'Fotos',
+    VIDEOS: 'Videos',
+    CONTACT: 'Contacte',
+    ABOUT_US: 'Què és Beirão',
+    GIGS: 'bolos',
+    FANS: 'fans',
+    BROKEN_DRUM_STICK: 'baquetes trencades',
+    YOUR_GIG: {
+        TITLE: 'El teu bolo',
+        HEADING: 'La nostra propera actuació pot ser la teva.',
+        EMAIL: 'Envia\'ns un mail',
+        CALL: 'Truca\'ns'
+    },
+    ABOUT_TEXT: 'Beirão Percussió és un projecte que neix al barri de la Sagrada Família de Barcelona l’any 2013, amb la intenció d’animar el públic a través de ritmes plens d’energia i vitalitat. El nostre repertori està inspirat en la música brasilera, reflectint, a més, un toc personal i un estil propi. Som un grup format per uns 20 components disposats a fer una autèntica festa de qualsevol esdeveniment. <br><br>Com a grup de percussió, estem oberts a participar en tot tipus d’esdeveniments; des d’actes que tradicionalment s’acompanyen de percussió (correfocs, tabalades, trobades de bèsties, rues i cercaviles...), fins a inauguracions, celebracions privades, classes esportives, concerts... Ens apassiona fer gaudir a tots els públics sigui quin sigui el format de  l’acte.  Els nostres espectacles s’adapten a qualsevol ocasió, sempre que es vulgui acompanyar d’una sonoritat especial.',
+    ABOUT_DATE: 'Barcelona / Sagrada Família / 25 d\'Abril, 2013'
+};
+
+var app = angular.module('BeiriPage', ['pascalprecht.translate',
+                                        'youtube-embed',
                                         'duScroll',
                                         'angular-carousel',
                                         'cfp.hotkeys',
                                         'ngAnimate']);
+
+app.config(['$translateProvider', function ($translateProvider) {
+    // add translation tables
+    $translateProvider.translations('en', translationsEN);
+    $translateProvider.translations('ca', translationsCA);
+    $translateProvider.preferredLanguage('ca');
+    $translateProvider.fallbackLanguage('ca');
+}]);
 
 app.value('duScrollDuration', 600);
 app.value('duScrollOffset', 50);
@@ -23,8 +68,8 @@ app.directive('navscroll', function($window) {
     };
 });
 
-app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
-                                    function($scope, $document, $http, hotkeys) {
+app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys', '$translate',
+                                    function($scope, $document, $http, hotkeys, $translate) {
     $scope.aboutExpanded = false;
     $scope.contactExpanded = false;
     $scope.likes = '---';
@@ -189,6 +234,10 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
         if (this.carouselIndex < this.carouselItems.length) {
             this.carouselIndex++;
         }
+    };
+
+    $scope.changeLanguage = function (langKey) {
+        $translate.use(langKey);
     };
 
     loadYears();
