@@ -5,10 +5,13 @@
         "coverpic": "img/2015.jpg",
         "gigs": [
             {
-                "title": "Port Aventura - 20è aniversari",
-                "date": "Vila-Seca / 01 de Maig de 2015",
+                "title_ca": "Port Aventura - 20è aniversari",
+                "title_en": "Port Aventura - 20th anniversary",
+                "date_ca": "Vila-Seca / 01 de Maig de 2015",
+                "date_en": "Vila-Seca / 01 May 2015",
                 "content": {
-                    "desc": "En una data especial com aquesta, Port Aventura compta amb la nostra presència per animar la vetllada als usuaris del parc. Al llarg de tota la tarda-nit, oferim diversos passes en els diferents ambients del recinte, perqué més enllà de les atraccions, la seva estada sigui festiva en tots els aspectes.",
+                    "desc_ca": "En una data especial com aquesta, Port Aventura compta amb la nostra presència per animar la vetllada als usuaris del parc. Al llarg de tota la tarda-nit, oferim diversos passes en els diferents ambients del recinte, perqué més enllà de les atraccions, la seva estada sigui festiva en tots els aspectes.",
+                    "desc_en": "In a special occasion like this one, Port Aventura relies on us to cheer its customers during the evening. We perform throught the different sets in the park from the afternoon until night come, in order to provide a joyful experience that goes beyond the park's rides.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/port_aventura_aniversari_2015_2.jpg",
@@ -28,10 +31,13 @@
                 }
             },
             {
-                "title": "2n Aniversari Beirão Percussió",
-                "date": "Barcelona / Sagrada Família  / 25 d'Abril de 2015",
+                "title_ca": "2n Aniversari Beirão Percussió",
+                "title_en": "Beirão Percussió 2nd anniversary",
+                "date_ca": "Barcelona / Sagrada Família  / 25 d'Abril de 2015",
+                "date_en": "Barcelona / Sagrada Família  / 25 April 2015",
                 "content": {
-                    "desc": "Amb motiu de l’aniversari, Beirao, amb la col·laboració de grups de percussió convidats, fem vibrar el nostre barri (Sagrada Família, Barcelona), amb ritmes plens de vida. La festa comença amb un cercavila per l’Avinguda Gaudí i finalitza amb espectacles estàtics davant l’emblemàtica Basílica.",
+                    "desc_ca": "Amb motiu de l’aniversari, Beirão, amb la col·laboració de grups de percussió convidats, fem vibrar el nostre barri (Sagrada Família, Barcelona), amb ritmes plens de vida. La festa comença amb un cercavila per l’Avinguda Gaudí i finalitza amb espectacles estàtics davant l’emblemàtica Basílica.",
+                    "desc_ca": "To mark our anniversary, Beirão, with the collaboration of guest bands, rock our the neighborhood (Sagrada Família, Barcelona), with rythms full of life. The celebration starts with a parade alongside Gaudí Avenue and ends with the bands' performances in front of the emblematic Basilica.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/aniversari_2015_1.jpg",
@@ -57,10 +63,10 @@
                 }
             },
             {
-                "title": "Sant Medir",
-                "date": "Barcelona / Gràcia / 03 de Març de 2015",
+                "title_ca": "Sant Medir",
+                "date_ca": "Barcelona / Gràcia / 03 de Març de 2015",
                 "content": {
-                    "desc": "Dins la popular festa de Sant Medir, brindem la nostra música pel barri de Gràcia (Barcelona), acompanyant la 'Colla humorística' en la cercavila més dolça de l’any, on els carrers s’omplen de caramels i llaminadures amb el pas dels cavalls i les carrosses.",
+                    "desc_ca": "Dins la popular festa de Sant Medir, brindem la nostra música pel barri de Gràcia (Barcelona), acompanyant la 'Colla humorística' en la cercavila més dolça de l’any, on els carrers s’omplen de caramels i llaminadures amb el pas dels cavalls i les carrosses.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/st_medir_2015_1.jpg",
@@ -76,10 +82,10 @@
                 }
             },
             {
-                "title": "Any nou Xinès",
-                "date": "Barcelona / 21 de Febrer de 2015",
+                "title_ca": "Any nou Xinès",
+                "date_ca": "Barcelona / 21 de Febrer de 2015",
                 "content": {
-                    "desc": "Per segon any consecutiu, els organitzadors de l’Any Nou Xinès de Barcelona, han tornat a confiar en nosaltres per acompanyar-los i fer de la seva celebració un espectacle multicultural. Hem participat en la rua pels carrers de la ciutat, finalment, concloent amb un lluïment estàtic sobre l’escenari de l’Arc de Triomf.",
+                    "desc_ca": "Per segon any consecutiu, els organitzadors de l’Any Nou Xinès de Barcelona, han tornat a confiar en nosaltres per acompanyar-los i fer de la seva celebració un espectacle multicultural. Hem participat en la rua pels carrers de la ciutat, finalment, concloent amb un lluïment estàtic sobre l’escenari de l’Arc de Triomf.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/any_nou_xines_2015_1.jpg",
@@ -97,10 +103,10 @@
                 }
             },
             {
-                "title": "Carnestoltes a Nou Barris",
-                "date": "Barcelona / Nou Barris / 14 de Febrer de 2015",
+                "title_ca": "Carnestoltes a Nou Barris",
+                "date_ca": "Barcelona / Nou Barris / 14 de Febrer de 2015",
                 "content": {
-                    "desc": "Carnaval és, per nosaltres, una època de molta activitat. Ens posem la nostra millor disfressa i no dubtem a sumar-nos a aquesta celebració, ja sigui acompanyant escoles, entitats de barri o festes privades. Enguany, sota l’aparença de “Super Beirãos” hem animat la rua de Roquetes, i, a continuació, la cercavila central de Nou Barris.",
+                    "desc_ca": "Carnaval és, per nosaltres, una època de molta activitat. Ens posem la nostra millor disfressa i no dubtem a sumar-nos a aquesta celebració, ja sigui acompanyant escoles, entitats de barri o festes privades. Enguany, sota l’aparença de “Super Beirãos” hem animat la rua de Roquetes, i, a continuació, la cercavila central de Nou Barris.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/carnestoltes_nou_barris_2015_1.jpg",
@@ -119,8 +125,8 @@
                     }
                 }
             },{
-                "title": "Correfoc de Santa Eulàlia",
-                "date": "Barcelona / Casc Antic / 07 de Febrer de 2015",
+                "title_ca": "Correfoc de Santa Eulàlia",
+                "date_ca": "Barcelona / Casc Antic / 07 de Febrer de 2015",
                 "content": {
                     "pictures": {
                         "thumbnails": [
@@ -133,17 +139,17 @@
                 }
             },
             {
-                "title": "Festival de la Infància",
-                "date": "Barcelona / Montjuïc / 03 de Gener de 2015",
+                "title_ca": "Festival de la Infància",
+                "date_ca": "Barcelona / Montjuïc / 03 de Gener de 2015",
                 "content": {
-                    "desc": "Toquem al Festival de la Infància de Barcelona, cobrint tot el recinte, per animar l’ambient i fer que tots els membres de la família puguin gaudir de la fira en tot moment."
+                    "desc_ca": "Toquem al Festival de la Infància de Barcelona, cobrint tot el recinte, per animar l’ambient i fer que tots els membres de la família puguin gaudir de la fira en tot moment."
                 }
             },
             {
-                "title": "I altres ...",
-                "date": "",
+                "title_ca": "I altres ...",
+                "date_ca": "",
                 "content": {
-                    "desc": "Participem en molts actes, com la celebració del centenari de l'escola Pompeu Fabra, a Badalona, etc. "
+                    "desc_ca": "Participem en molts actes, com la celebració del centenari de l'escola Pompeu Fabra, a Badalona, etc. "
                 }
             }
         ]
@@ -154,17 +160,17 @@
         "coverpic": "img/2014.jpg",
         "gigs": [
             {
-                "title": "La Marató de TV3",
-                "date": "14 de Desembre de 2014",
+                "title_ca": "La Marató de TV3",
+                "date_ca": "14 de Desembre de 2014",
                 "content": {
-                    "desc": "Com a grup compromès, participem en un dels actes de la Marató de TV3, destinat a recaptar fons per la cura de malalties del cor."
+                    "desc_ca": "Com a grup compromès, participem en un dels actes de la Marató de TV3, destinat a recaptar fons per la cura de malalties del cor."
                 }
             },
             {
-                "title": "Classe de Zumba al Claror",
-                "date": "Barcelona / Sagrada Família / 27 de Setembre i 19 d'Octubre de 2014",
+                "title_ca": "Classe de Zumba al Claror",
+                "date_ca": "Barcelona / Sagrada Família / 27 de Setembre i 19 d'Octubre de 2014",
                 "content": {
-                    "desc": "En diverses ocasions, interpretem el nostre repertori en classes de Zumba en col•laboració amb el Centre Esportiu Municipal Claror. La classe de Zumba i Beirão Percussió es fusionen per crear una activitat conjunta de música i ball en directe; una manera diferent i innovadora d’impartir aquesta activitats esportiva.",
+                    "desc_ca": "En diverses ocasions, interpretem el nostre repertori en classes de Zumba en col•laboració amb el Centre Esportiu Municipal Claror. La classe de Zumba i Beirão Percussió es fusionen per crear una activitat conjunta de música i ball en directe; una manera diferent i innovadora d’impartir aquesta activitats esportiva.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/zumba_2014_1.jpg",
@@ -182,10 +188,10 @@
                 }
             },
             {
-                "title": "Mercè 2014",
-                "date": "Barcelona / Barri Gòtic / 20 i 21 de Setembre de 2014",
+                "title_ca": "Mercè 2014",
+                "date_ca": "Barcelona / Barri Gòtic / 20 i 21 de Setembre de 2014",
                 "content": {
-                    "desc": "Entre els actes de la festa major de la Mercè, la més gran de Barcelona, acompanyem la bèstia de la Farfolla de la Sagrada Família durant la passejada de bèsties i el correfoc. A més a més, participem a la tabalada, omplint de ritme els carrers del centre de Barcelona.",
+                    "desc_ca": "Entre els actes de la festa major de la Mercè, la més gran de Barcelona, acompanyem la bèstia de la Farfolla de la Sagrada Família durant la passejada de bèsties i el correfoc. A més a més, participem a la tabalada, omplint de ritme els carrers del centre de Barcelona.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/merce_2014_1.jpg",
@@ -199,10 +205,10 @@
                 }
             },
             {
-                "title": "Port Aventura",
-                "date": "Vila-Seca / Juliol, Agost i Setembre de 2014",
+                "title_ca": "Port Aventura",
+                "date_ca": "Vila-Seca / Juliol, Agost i Setembre de 2014",
                 "content": {
-                    "desc": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits.",
+                    "desc_ca": "Som un dels espectacles que es poden gaudir durant la temporada d’estiu 2014 a Port Aventura, participant en diverses nits temàtiques: New Generation, Festa Pirata i Oktoberfest. Presentem el nostre espectacle en diferents àrees del parc, oferint múltiples passes al llarg de les nits.",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/port_aventura_oktoberfest_2014_1.jpg",
@@ -242,26 +248,26 @@
                 }
             },
             {
-                "title": "XV Jornada de Portes Obertes de la​ Fundació Germans Aymar i Puig",
-                "date": "Alella / 05 de Juliol de 2014",
+                "title_ca": "XV Jornada de Portes Obertes de la​ Fundació Germans Aymar i Puig",
+                "date_ca": "Alella / 05 de Juliol de 2014",
                 "content": {
-                    "desc": "Actuem en una residència de Gent gran el dia de les famílies, acompanyant als convidats amb l’objectiu de fer passar una bona estona a un públic de totes les edats."
+                    "desc_ca": "Actuem en una residència de Gent gran el dia de les famílies, acompanyant als convidats amb l’objectiu de fer passar una bona estona a un públic de totes les edats."
                 }
             },
             {
-                "title": "Barcelona Gay Pride",
-                "date": "Barceloa / Casc Antic / 28 de Juny de 2014",
+                "title_ca": "Barcelona Gay Pride",
+                "date_ca": "Barceloa / Casc Antic / 28 de Juny de 2014",
                 "content": {
-                    "desc": "Manifestació per l’alliberament LGTB. "
+                    "desc_ca": "Manifestació per l’alliberament LGTB. "
                 }
             },
             {
-                "title": "Revetlla de Sant Joan a Sagrada Família",
-                "date": "Barcelona / Sagrada Família / 23 de Juny de 2014"
+                "title_ca": "Revetlla de Sant Joan a Sagrada Família",
+                "date_ca": "Barcelona / Sagrada Família / 23 de Juny de 2014"
             },
             {
-                "title": "Festival Kutuprá",
-                "date": "Barcelona / Vila Olímpica / 21 de Juny de 2014",
+                "title_ca": "Festival Kutuprá",
+                "date_ca": "Barcelona / Vila Olímpica / 21 de Juny de 2014",
                 "content": {
                     "pictures": {
                         "thumbnails": [
@@ -281,44 +287,44 @@
                 }
             },
             {
-                "title": "Concerts al barri de La Prosperitat",
-                "date": "Barcelona / Nou Barris / 30 i 31 de Maig de 2014",
+                "title_ca": "Concerts al barri de La Prosperitat",
+                "date_ca": "Barcelona / Nou Barris / 30 i 31 de Maig de 2014",
                 "content": {
-                    "desc": "Durant la festa major del barri de la Prosperitat (Barcelona), Beirão oferim el nostre espectacle musical. Ens encarreguem d’amenitzar les estones entre concert i concert per mantenir l’ambient festiu i fer gaudir al públic en tot moment."
+                    "desc_ca": "Durant la festa major del barri de la Prosperitat (Barcelona), Beirão oferim el nostre espectacle musical. Ens encarreguem d’amenitzar les estones entre concert i concert per mantenir l’ambient festiu i fer gaudir al públic en tot moment."
                 }
             },
             {
-                "title": "AS de Repiques 2014",
-                "date": "Vilassar / 17 de Maig de 2014",
+                "title_ca": "AS de Repiques 2014",
+                "date_ca": "Vilassar / 17 de Maig de 2014",
                 "content": {
-                    "desc": "Beirão participem amb la intenció de donar-nos a conèixer davant d’un públic de més de 1000 persones i d’uns 50 grups concursants. Tot i ser el primer concurs en què participem, el resultat és tot un èxit: la nostra feina i constància es veu recompensada aconseguint un gran reconeixement per part del jurat i del públic. En la III edició del concurs solidari de percussió As de Repiques, Beirão quedem 9ens en la classificació general, 3rs per votació popular i finalistes de la fase energia. ",
+                    "desc_ca": "Beirão participem amb la intenció de donar-nos a conèixer davant d’un públic de més de 1000 persones i d’uns 50 grups concursants. Tot i ser el primer concurs en què participem, el resultat és tot un èxit: la nostra feina i constància es veu recompensada aconseguint un gran reconeixement per part del jurat i del públic. En la III edició del concurs solidari de percussió As de Repiques, Beirão quedem 9ens en la classificació general, 3rs per votació popular i finalistes de la fase energia. ",
                     "youtube": "cUmOx3m_WJU"
                 }
             },
             {
-                "title": "1r Aniversari Beirão Percussió",
-                "date": "Barcelona / Sagrada Família / 03 de Maig de 2014"
+                "title_ca": "1r Aniversari Beirão Percussió",
+                "date_ca": "Barcelona / Sagrada Família / 03 de Maig de 2014"
             },
             {
-                "title": "Festa Major de la Sagrada Família",
-                "date": "Barcelona / Sagrada Família / 26 d'Abrol de 2014"
+                "title_ca": "Festa Major de la Sagrada Família",
+                "date_ca": "Barcelona / Sagrada Família / 26 d'Abrol de 2014"
             },
             {
-                "title": "Carnestoltes",
-                "date": "Rubí / Barcelona / Sants / 27 i 28 de Febrer i 1 de Març de 2014",
+                "title_ca": "Carnestoltes",
+                "date_ca": "Rubí / Barcelona / Sants / 27 i 28 de Febrer i 1 de Març de 2014",
                 "content": {
-                    "desc": "Arribada del rei Carnestoltes a Sants, rues a les escoles Ernest Lluch i Sagrada Família, rua infantil a Sants i rua de carnaval a Rubí"
+                    "desc_ca": "Arribada del rei Carnestoltes a Sants, rues a les escoles Ernest Lluch i Sagrada Família, rua infantil a Sants i rua de carnaval a Rubí"
                 }
             },
             {
-                "title": "Any nou Xinès",
-                "date": "Barcelona / 01 de Febrer de 2014"
+                "title_ca": "Any nou Xinès",
+                "date_ca": "Barcelona / 01 de Febrer de 2014"
             },
             {
-                "title": "I molts altres ...",
-                "date": "",
+                "title_ca": "I molts altres ...",
+                "date_ca": "",
                 "content": {
-                    "desc": "Hem participat en molts actes, com la Tabalada i Correfoc de la Festa Major de Sant Antoni, la inauguració del local social de Castellers de la Sagrada Família, l'Aniversari d'Arreplegats de la Zona Universitària, la festa de l'AMPA a l'escola Ramon Llull, correfocs a Sant Cugat Ses Garrigues, Fort Pienc, un casament a Centelles, etc. ",
+                    "desc_ca": "Hem participat en molts actes, com la Tabalada i Correfoc de la Festa Major de Sant Antoni, la inauguració del local social de Castellers de la Sagrada Família, l'Aniversari d'Arreplegats de la Zona Universitària, la festa de l'AMPA a l'escola Ramon Llull, correfocs a Sant Cugat Ses Garrigues, Fort Pienc, un casament a Centelles, etc. ",
                     "pictures": {
                         "thumbnails": [
                             "img/gigs/thumbnails/altres_2014_1.jpg",
@@ -347,24 +353,24 @@
         "coverpic": "img/2013.jpg",
         "gigs": [
             {
-                "title": "20 anys de la Farfolla de la Sagrada Família",
-                "date": "Barcelona / Sagrada Família / 14 de Desembre de 2013"
+                "title_ca": "20 anys de la Farfolla de la Sagrada Família",
+                "date_ca": "Barcelona / Sagrada Família / 14 de Desembre de 2013"
             },
             {
-                "title": "Bodes",
-                "date": "03 d'Agost de 2013"
+                "title_ca": "Bodes",
+                "date_ca": "03 d'Agost de 2013"
             },
             {
-                "title": "Torneig Solidari de Futbol",
-                "date": "29 de Juny de 2013"
+                "title_ca": "Torneig Solidari de Futbol",
+                "date_ca": "29 de Juny de 2013"
             },
             {
-                "title": "Vilanova Somriu",
-                "date": "15 de Juny de 2013"
+                "title_ca": "Vilanova Somriu",
+                "date_ca": "15 de Juny de 2013"
             },
             {
-                "title": "Fundació Disgrup",
-                "date": "26 de Maig de 2013"
+                "title_ca": "Fundació Disgrup",
+                "date_ca": "26 de Maig de 2013"
             }
         ]
     }

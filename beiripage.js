@@ -42,7 +42,6 @@ var app = angular.module('BeiriPage', ['pascalprecht.translate',
                                         'ngAnimate']);
 
 app.config(['$translateProvider', function ($translateProvider) {
-    // add translation tables
     $translateProvider.translations('en', translationsEN);
     $translateProvider.translations('ca', translationsCA);
     $translateProvider.preferredLanguage('ca');
@@ -119,7 +118,6 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys', '$
                     subject: 'Missatge de ' + name + ' ' + phone,
                     text: msg
                 });
-
 
 		$http
             .post('https://api.mailjet.com/v3/send/message'
@@ -238,10 +236,31 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys', '$
 
     $scope.changeLanguage = function (langKey) {
         $translate.use(langKey);
+        localize(langKey);
     };
 
     loadYears();
     loadLikes();
+
+    function localize(locale) {
+        for (var i in $scope.years) {
+            var year = $scope.years[i];
+
+            for (var j in year.gigs) {
+                if (year.gigs[j]['title_' + locale]) {
+                    year.gigs[j].title = year.gigs[j]['title_' + locale];
+                }
+
+                if (year.gigs[j]['date_' + locale]) {
+                    year.gigs[j].date = year.gigs[j]['date_' + locale];
+                }
+
+                if (year.gigs[j].content && year.gigs[j].content['desc_' +locale]) {
+                    year.gigs[j].content.desc = year.gigs[j].content['desc_' +locale];
+                }
+            }
+        }
+    }
 
     function loadYears() {
         $http.get('years.json')
@@ -263,6 +282,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys', '$
                 }
 
                 $scope.years = years;
+                localize('ca');
                 $scope.totalGigs = totalGigs;
 
                 $scope.years[0].expanded = true;
