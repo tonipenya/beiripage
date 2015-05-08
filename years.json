@@ -64,6 +64,7 @@
             },
             {
                 "title_ca": "Sant Medir",
+                "title_en": "Sant Medir",
                 "date_ca": "Barcelona / Gràcia / 03 de Març de 2015",
                 "date_en": "Barcelona / Gràcia / 03 March 2015",
                 "content": {
@@ -84,6 +85,7 @@
             },
             {
                 "title_ca": "Any nou Xinès",
+                "title_en": "Chinese new year",
                 "date_ca": "Barcelona / 21 de Febrer de 2015",
                 "date_en": "Barcelona / 21 February 2015",
                 "content": {
@@ -106,6 +108,7 @@
             },
             {
                 "title_ca": "Carnestoltes a Nou Barris",
+                "title_en": "Nou Barris' Carnival",
                 "date_ca": "Barcelona / Nou Barris / 14 de Febrer de 2015",
                 "date_en": "Barcelona / Nou Barris / 14 February 2015",
                 "content": {
@@ -129,6 +132,7 @@
                 }
             },{
                 "title_ca": "Correfoc de Santa Eulàlia",
+                "title_en": "Santa Eulàlia's correfoc",
                 "date_ca": "Barcelona / Casc Antic / 07 de Febrer de 2015",
                 "date_en": "Barcelona / Casc Antic / 07 February 2015",
                 "content": {
@@ -144,6 +148,7 @@
             },
             {
                 "title_ca": "Festival de la Infància",
+                "title_en": "Children's festival",
                 "date_ca": "Barcelona / Montjuïc / 03 de Gener de 2015",
                 "date_en": "Barcelona / Montjuïc / 03 January 2015",
                 "content": {
@@ -152,6 +157,7 @@
             },
             {
                 "title_ca": "I altres ...",
+                "title_en": "And more ...",
                 "date_ca": "",
                 "content": {
                     "desc_ca": "Participem en molts actes, com la celebració del centenari de l'escola Pompeu Fabra, a Badalona, etc. "
@@ -174,6 +180,7 @@
             },
             {
                 "title_ca": "Classe de Zumba al Claror",
+                "title_en": "Zumba master class at Claror",
                 "date_ca": "Barcelona / Sagrada Família / 27 de Setembre i 19 d'Octubre de 2014",
                 "date_en": "Barcelona / Sagrada Família / 27 September and 19 October de 2014",
                 "content": {
@@ -196,6 +203,7 @@
             },
             {
                 "title_ca": "Mercè 2014",
+                "title_en": "Mercè 2014",
                 "date_ca": "Barcelona / Barri Gòtic / 20 i 21 de Setembre de 2014",
                 "date_en": "Barcelona / Barri Gòtic / 20 and 21 September 2014",
                 "content": {
@@ -214,6 +222,7 @@
             },
             {
                 "title_ca": "Port Aventura",
+                "title_en": "Port Aventura",
                 "date_ca": "Vila-Seca / Juliol, Agost i Setembre de 2014",
                 "date_en": "Vila-Seca / July, August and September 2014",
                 "content": {
@@ -258,6 +267,7 @@
             },
             {
                 "title_ca": "XV Jornada de Portes Obertes de la​ Fundació Germans Aymar i Puig",
+                "title_en": "XV Open house day at Fundació Germans Aymar i Puig",
                 "date_ca": "Alella / 05 de Juliol de 2014",
                 "date_en": "Alella / 05 July 2014",
                 "content": {
@@ -266,6 +276,7 @@
             },
             {
                 "title_ca": "Barcelona Gay Pride",
+                "title_en": "Barcelona Gay Pride",
                 "date_ca": "Barceloa / Casc Antic / 28 de Juny de 2014",
                 "date_en": "Barceloa / Casc Antic / 28 June 2014",
                 "content": {
@@ -274,11 +285,13 @@
             },
             {
                 "title_ca": "Revetlla de Sant Joan a Sagrada Família",
+                "title_en": "Sant Joan's eve at Sagrada Família",
                 "date_ca": "Barcelona / Sagrada Família / 23 de Juny de 2014",
                 "date_en": "Barcelona / Sagrada Família / 23 June 2014"
             },
             {
                 "title_ca": "Festival Kutuprá",
+                "title_en": "Kutuprá festival",
                 "date_ca": "Barcelona / Vila Olímpica / 21 de Juny de 2014",
                 "date_en": "Barcelona / Vila Olímpica / 21 June 2014",
                 "content": {
@@ -301,6 +314,7 @@
             },
             {
                 "title_ca": "Concerts al barri de La Prosperitat",
+                "title_en": "La Prosperitat concerts",
                 "date_ca": "Barcelona / Nou Barris / 30 i 31 de Maig de 2014",
                 "date_en": "Barcelona / Nou Barris / 30 and 31 May 2014",
                 "content": {
@@ -309,6 +323,7 @@
             },
             {
                 "title_ca": "AS de Repiques 2014",
+                "title_en": "AS de Repiques 2014",
                 "date_ca": "Vilassar / 17 de Maig de 2014",
                 "date_en": "Vilassar / 17 May 2014",
                 "content": {
@@ -318,16 +333,19 @@
             },
             {
                 "title_ca": "1r Aniversari Beirão Percussió",
+                "title_en": "Beirão Percussió 1st anniversary",
                 "date_ca": "Barcelona / Sagrada Família / 03 de Maig de 2014",
                 "date_en": "Barcelona / Sagrada Família / 03 May 2014"
             },
             {
                 "title_ca": "Festa Major de la Sagrada Família",
+                "title_en": "Sagrada Família's Festival",
                 "date_ca": "Barcelona / Sagrada Família / 26 d'Abril de 2014",
                 "date_ca": "Barcelona / Sagrada Família / 26 April 2014"
             },
             {
                 "title_ca": "Carnestoltes",
+                "title_en": "Carnival",
                 "date_ca": "Rubí / Barcelona / Sants / 27 i 28 de Febrer i 1 de Març de 2014",
                 "date_en": "Rubí / Barcelona / Sants / 27 and 28 de February and 1 March de 2014",
                 "content": {
@@ -336,11 +354,13 @@
             },
             {
                 "title_ca": "Any nou Xinès",
+                "title_en": "Chinese new year",
                 "date_ca": "Barcelona / 01 de Febrer de 2014",
                 "date_en": "Barcelona / 01 de February de 2014"
             },
             {
                 "title_ca": "I molts altres ...",
+                "title_en": "And many more ...",
                 "date_ca": "",
                 "content": {
                     "desc_ca": "Hem participat en molts actes, com la Tabalada i Correfoc de la Festa Major de Sant Antoni, la inauguració del local social de Castellers de la Sagrada Família, l'Aniversari d'Arreplegats de la Zona Universitària, la festa de l'AMPA a l'escola Ramon Llull, correfocs a Sant Cugat Ses Garrigues, Fort Pienc, un casament a Centelles, etc. ",
@@ -373,26 +393,31 @@
         "gigs": [
             {
                 "title_ca": "20 anys de la Farfolla de la Sagrada Família",
+                "title_en": "Farfolla de la Sagrada Família 20th anniversary",
                 "date_ca": "Barcelona / Sagrada Família / 14 de Desembre de 2013",
                 "date_en": "Barcelona / Sagrada Família / 14 December 2013"
             },
             {
                 "title_ca": "Bodes",
+                "title_en": "Weddings",
                 "date_ca": "03 d'Agost de 2013",
                 "date_en": "03 August 2013"
             },
             {
                 "title_ca": "Torneig Solidari de Futbol",
+                "title_en": "Charity football tournament",
                 "date_ca": "29 de Juny de 2013",
                 "date_en": "29 June 2013"
             },
             {
                 "title_ca": "Vilanova Somriu",
+                "title_en": "Vilanova Somriu",
                 "date_ca": "15 de Juny de 2013",
                 "date_en": "15 June 2013"
             },
             {
                 "title_ca": "Fundació Disgrup",
+                "title_en": "Fundació Disgrup",
                 "date_ca": "26 de Maig de 2013",
                 "date_en": "26 May 2013"
             }
