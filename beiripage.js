@@ -292,9 +292,9 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys', '$
     }
 
     function loadLikes() {
-        $http.get('https://graph.facebook.com/beiraopercussio/')
+        $http.get('https://graph.facebook.com/fql?q=SELECT%20fan_count%20FROM%20page%20WHERE%20page_id=410888445612474')
             .success(function (data) {
-                $scope.likes = data.likes;
+                $scope.likes = data.data[0].fan_count;
             })
             .error(function () {
                 $scope.likes = '---';
