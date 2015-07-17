@@ -5,6 +5,62 @@
         "coverpic": "img/2015.jpg",
         "gigs": [
             {
+                "title_ca": "Port Aventura - nit blanca brasilera",
+                "title_en": "Port Aventura - brasilian night",
+                "date_ca": "Vila-Seca / 27 de Juny de 2015",
+                "date_en": "Vila-Seca / 27 June 2015",
+                "content": {
+                    "desc_ca": "Un cop més, Port Aventura torna a confiar en Beirão Percussió per omplir de música els espais del parc durant la nit blanca Brasilera.",
+                    "desc_en": "Once again, Port Aventura trustes Beirão Percussió with filling their park with music during the brasilian night.",
+                    "pictures": {
+                        "thumbnails": [
+                            "img/gigs/thumbnails/port_aventura_brasil_1.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_2.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_3.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_4.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_5.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_6.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_7.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_8.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil_9.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil10.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil11.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil12.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil13.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil14.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil15.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil16.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil17.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil18.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil19.jpg",
+                            "img/gigs/thumbnails/port_aventura_brasil20.jpg"
+                        ],
+                        "fullsize": [
+                            "img/gigs/fullsize/port_aventura_brasil_1.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_2.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_3.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_4.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_5.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_6.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_7.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_8.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_9.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_10.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_11.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_12.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_13.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_14.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_15.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_16.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_17.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_18.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_19.jpg",
+                            "img/gigs/fullsize/port_aventura_brasil_20.jpg"
+                        ]
+                    }
+                }
+            },
+            {
                 "title_ca": "Port Aventura - 20è aniversari",
                 "title_en": "Port Aventura - 20th anniversary",
                 "date_ca": "Vila-Seca / 01 de Maig de 2015",
