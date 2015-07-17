@@ -82,7 +82,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys', '$
         'img/cover/slide1.jpg',
         'img/cover/slide2.jpg',
         'img/cover/slide3.jpg',
-        'img/cover/slide4.jpg',
+        // 'img/cover/slide4.jpg',
         'img/cover/slide5.jpg'
     ];
 
