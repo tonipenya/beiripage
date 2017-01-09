@@ -1,4 +1,5 @@
-var app = angular.module('BeiriPage', ['youtube-embed',
+var app = angular.module('BeiriPage', ['ngResource',
+                                        'youtube-embed',
                                         'duScroll',
                                         'angular-carousel',
                                         'cfp.hotkeys',
@@ -23,8 +24,8 @@ app.directive('navscroll', function($window) {
     };
 });
 
-app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
-                                    function($scope, $document, $http, hotkeys) {
+app.controller('BeiriController', ['$scope', '$document', '$http', '$resource', 'hotkeys',
+                                    function($scope, $document, $http, $resource, hotkeys) {
     $scope.aboutExpanded = false;
     $scope.contactExpanded = false;
     $scope.likes = '---';
@@ -41,6 +42,8 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
         'img/cover/slide4.jpg',
         'img/cover/slide5.jpg'
     ];
+
+    var Years = $resource('https://beiripage.firebaseio.com/years.json');
 
     hotkeys.add({
         combo: 'right',
@@ -195,10 +198,9 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
     loadLikes();
 
     function loadYears() {
-        $http.get('years.json')
-            .success(function (years) {
+      Years.query(function (years) {
                 var gigId = 1;
-                for (var i in years) {
+                for (var i = 0; i < years.length; i++) {
                     var year = years[i];
 
                     for (var j in year.gigs) {
@@ -209,7 +211,7 @@ app.controller('BeiriController', ['$scope', '$document', '$http', 'hotkeys',
 
                 var totalGigs = 0;
 
-                for(var i in years) {
+                for(var i = 0; i < years.length; i++) {
                     totalGigs += years[i].ngigs;
                 }
 
